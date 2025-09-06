@@ -4,10 +4,21 @@ import { ArrowRightLeft, Shield, Droplets, Users, ArrowRight, X } from 'lucide-r
 const FeaturesSection: React.FC = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   
-  const features = [
+  const features: Array<{
+    id: number;
+    title: string;
+    displayTitle?: string;
+    description: string;
+    icon: any;
+    link: string;
+    gradient: string;
+    accentColor: string;
+    image: string;
+  }> = [
     {
       id: 1,
       title: "Smart Swap & Transfer",
+      displayTitle: "Smart <span class='gold-luxury'>Swap</span> & <span class='gold-luxury'>Transfer</span>",
       description: "Instantly and securely swap or send your assets with intelligent automation and real-time market analysis.",
       icon: ArrowRightLeft,
       link: "https://swap-transfer.vercel.app",
@@ -18,6 +29,7 @@ const FeaturesSection: React.FC = () => {
     {
       id: 2,
       title: "Security Guardian",
+      displayTitle: "<span class='gold-luxury'>Security</span> Guardian",
       description: "Advanced phishing detection system that instantly identifies suspicious contract addresses and protects your assets.",
       icon: Shield,
       link: "https://phishing-detector.vercel.app",
@@ -28,6 +40,7 @@ const FeaturesSection: React.FC = () => {
     {
       id: 3,
       title: "Testnet Faucet Hub",
+      displayTitle: "Testnet <span class='gold-luxury'>Faucet</span> Hub",
       description: "Quick and easy access to testnet tokens for developers. Multiple networks supported with instant distribution.",
       icon: Droplets,
       link: "https://pov-faucet.vercel.app",
@@ -38,6 +51,7 @@ const FeaturesSection: React.FC = () => {
     {
       id: 4,
       title: "Advanced Operations",
+      displayTitle: "<span class='gold-luxury'>Advanced Operations</span>",
       description: "Bulk transfers, multi-signature wallets, and comprehensive account management solutions for power users.",
       icon: Users,
       link: "https://multisender-creator.vercel.app",
@@ -78,28 +92,29 @@ const FeaturesSection: React.FC = () => {
         {/* 2x2 Elegant Grid */}
         <div className="grid grid-cols-2 gap-6 w-full">
           {features.map((feature, index) => (
-            <div
-              key={feature.id}
-              className={`relative group cursor-pointer overflow-hidden transition-all duration-300 ease-out ${
-                hoveredCard === feature.id ? 'transform scale-105' : ''
-              }`}
-              onMouseEnter={() => setHoveredCard(feature.id)}
-              onMouseLeave={() => setHoveredCard(null)}
-              style={{
-                height: hoveredCard === feature.id ? '500px' : '350px',
-              }}
+                        <div
+                          key={feature.id}
+                          className={`relative group cursor-pointer overflow-hidden transition-all duration-200 ease-out will-change-transform ${
+                            hoveredCard === feature.id ? 'transform scale-102' : ''
+                          }`}
+                          onMouseEnter={() => setHoveredCard(feature.id)}
+                          onMouseLeave={() => setHoveredCard(null)}
+                          style={{
+                            height: hoveredCard === feature.id ? '500px' : '350px',
+                            transform: hoveredCard === feature.id ? 'scale(1.02)' : 'scale(1)',
+                          }}
             >
               {/* Main Card Container */}
               <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
-                {/* Background Image */}
-                <div 
-                  className="absolute inset-0 transition-all duration-300"
-                  style={{
-                    backgroundImage: `url('${feature.image}')`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat'
-                  }}
+                            {/* Background Image */}
+                            <div 
+                              className="absolute inset-0 transition-all duration-200 will-change-transform"
+                              style={{
+                                backgroundImage: `url('${feature.image}')`,
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center',
+                                backgroundRepeat: 'no-repeat'
+                              }}
                 >
                   {/* Dark Overlay for Text Readability */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -120,51 +135,52 @@ const FeaturesSection: React.FC = () => {
                   {/* Bottom Section - Title & Description */}
                   <div className="space-y-4">
                     {/* Title */}
-                    <h3 className="text-3xl font-bold text-white font-playfair drop-shadow-2xl leading-tight">
-                      {feature.title}
-                    </h3>
+                    <h3 
+                      className="text-3xl font-bold text-white font-rajdhani drop-shadow-2xl leading-tight"
+                      dangerouslySetInnerHTML={{ __html: feature.displayTitle || feature.title }}
+                    ></h3>
 
-                    {/* Description - Only show on hover */}
-                    <div 
-                      className={`transition-all duration-300 ease-out overflow-hidden ${
-                        hoveredCard === feature.id 
-                          ? 'max-h-32 opacity-100 transform translate-y-0' 
-                          : 'max-h-0 opacity-0 transform translate-y-2'
-                      }`}
+                                {/* Description - Only show on hover */}
+                                <div 
+                                  className={`transition-all duration-200 ease-out overflow-hidden will-change-transform ${
+                                    hoveredCard === feature.id 
+                                      ? 'max-h-32 opacity-100 transform translate-y-0' 
+                                      : 'max-h-0 opacity-0 transform translate-y-1'
+                                  }`}
                     >
-                      <p className="text-gray-200 text-lg leading-relaxed font-playfair">
+                      <p className="text-gray-200 text-lg leading-relaxed font-rajdhani">
                         {feature.description}
                       </p>
                     </div>
 
-                    {/* Elegant Accent Line */}
-                    <div 
-                      className={`transition-all duration-300 ease-out ${
-                        hoveredCard === feature.id ? 'w-24 opacity-100' : 'w-12 opacity-60'
-                      } h-1 rounded-full`}
-                      style={{ backgroundColor: feature.accentColor }}
+                                {/* Elegant Accent Line */}
+                                <div 
+                                  className={`transition-all duration-200 ease-out will-change-transform ${
+                                    hoveredCard === feature.id ? 'w-24 opacity-100' : 'w-12 opacity-60'
+                                  } h-1 rounded-full`}
+                                  style={{ backgroundColor: feature.accentColor }}
                     ></div>
                   </div>
                 </div>
 
-                {/* Elegant Border Glow */}
-                <div 
-                  className={`absolute inset-0 rounded-2xl pointer-events-none transition-all duration-300 ease-out ${
-                    hoveredCard === feature.id ? 'opacity-100' : 'opacity-0'
-                  }`}
-                  style={{ 
-                    boxShadow: `inset 0 0 0 2px ${feature.accentColor}40, 0 0 40px ${feature.accentColor}20`
-                  }}
+                            {/* Elegant Border Glow */}
+                            <div 
+                              className={`absolute inset-0 rounded-2xl pointer-events-none transition-opacity duration-200 ease-out ${
+                                hoveredCard === feature.id ? 'opacity-100' : 'opacity-0'
+                              }`}
+                              style={{ 
+                                boxShadow: `inset 0 0 0 2px ${feature.accentColor}40, 0 0 40px ${feature.accentColor}20`
+                              }}
                 ></div>
 
-                {/* Subtle Inner Glow */}
-                <div 
-                  className={`absolute inset-0 rounded-2xl pointer-events-none transition-all duration-300 ease-out ${
-                    hoveredCard === feature.id ? 'opacity-30' : 'opacity-0'
-                  }`}
-                  style={{ 
-                    background: `radial-gradient(circle at center, ${feature.accentColor}10 0%, transparent 70%)`
-                  }}
+                            {/* Subtle Inner Glow */}
+                            <div 
+                              className={`absolute inset-0 rounded-2xl pointer-events-none transition-opacity duration-200 ease-out ${
+                                hoveredCard === feature.id ? 'opacity-30' : 'opacity-0'
+                              }`}
+                              style={{ 
+                                background: `radial-gradient(circle at center, ${feature.accentColor}10 0%, transparent 70%)`
+                              }}
                 ></div>
               </div>
             </div>
