@@ -61,6 +61,14 @@ body {
   overflow-x: hidden;
 }
 
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /* Custom animations */
 @keyframes float {
   0%, 100% {
