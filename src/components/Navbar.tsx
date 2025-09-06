@@ -9,6 +9,11 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ onRaiseClick }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setIsMobileMenuOpen(false);
+  };
+
   const scrollToFeatures = () => {
     const featuresSection = document.getElementById('features');
     if (featuresSection) {
@@ -22,19 +27,25 @@ const Navbar: React.FC<NavbarProps> = ({ onRaiseClick }) => {
       <div className="max-w-full mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex justify-between items-center h-16">
           {/* Logo & Brand */}
-          <div className="flex items-center space-x-4">
+          <button 
+            onClick={scrollToTop}
+            className="flex items-center space-x-4 cursor-pointer"
+          >
             <img src={orviumLogo} alt="Orvium Logo" className="w-14 h-14 drop-shadow-lg" />
             <h1 className="text-4xl font-black bg-gradient-to-r from-[#8A2BE2] to-[#FF00FF] bg-clip-text text-transparent font-orbitron animate-purple-pink-flow tracking-widest uppercase drop-shadow-2xl">
               ORVIUM
             </h1>
-          </div>
+          </button>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2">
             <div className="flex items-center space-x-12">
-              <a href="#" className="text-white hover:text-[#FF00FF] transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow uppercase">
+              <button
+                onClick={scrollToTop}
+                className="text-white hover:text-[#FF00FF] transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow uppercase"
+              >
                 HOME
-              </a>
+              </button>
               <button
                 onClick={scrollToFeatures}
                 className="text-white hover:text-[#FF00FF] transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow uppercase"
@@ -70,9 +81,12 @@ const Navbar: React.FC<NavbarProps> = ({ onRaiseClick }) => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-black/90 backdrop-blur-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#" className="block text-white hover:text-[#FF00FF] px-3 py-2 transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow uppercase">
+            <button
+              onClick={scrollToTop}
+              className="block text-white hover:text-[#FF00FF] px-3 py-2 transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow uppercase w-full text-left"
+            >
               HOME
-            </a>
+            </button>
             <button
               onClick={scrollToFeatures}
               className="block text-white hover:text-[#FF00FF] px-3 py-2 transition-all duration-300 font-orbitron font-medium tracking-wide w-full text-left hover:animate-text-glow uppercase"

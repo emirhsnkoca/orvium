@@ -1,7 +1,12 @@
 import React from 'react';
 import { Youtube } from 'lucide-react';
+import orviumLogo from '../assets/nobg_orvium.png';
 
 const Footer: React.FC = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer 
       className="py-8 px-4 sm:px-6 lg:px-8 border-t border-[#8A2BE2]/10 relative overflow-hidden"
@@ -19,9 +24,15 @@ const Footer: React.FC = () => {
           
           {/* Left Section - Logo & Description */}
           <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-3 lg:space-y-0 lg:space-x-6">
-            <h3 className="text-3xl font-black bg-gradient-to-r from-[#8A2BE2] to-[#FF00FF] bg-clip-text text-transparent font-rajdhani animate-purple-pink-flow tracking-widest uppercase drop-shadow-2xl">
-              ORVIUM
-            </h3>
+            <button 
+              onClick={scrollToTop}
+              className="flex items-center space-x-3 cursor-pointer"
+            >
+              <img src={orviumLogo} alt="Orvium Logo" className="w-10 h-10 drop-shadow-lg" />
+              <h3 className="text-3xl font-black bg-gradient-to-r from-[#8A2BE2] to-[#FF00FF] bg-clip-text text-transparent font-rajdhani animate-purple-pink-flow tracking-widest uppercase drop-shadow-2xl">
+                ORVIUM
+              </h3>
+            </button>
             <div className="hidden lg:block w-px h-10 bg-gradient-to-b from-[#8A2BE2] via-[#BF40BF] to-transparent opacity-60"></div>
             <p className="text-gray-300 font-rajdhani text-center lg:text-left font-medium tracking-wide uppercase text-lg">
               SMART TOOLS FOR RISE CHAIN ECOSYSTEM
