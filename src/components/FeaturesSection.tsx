@@ -48,8 +48,24 @@ const FeaturesSection: React.FC = () => {
   ];
 
   return (
-    <section id="features" style={{ height: '150vh' }} className="flex flex-col items-center justify-start px-8 py-8 bg-gradient-to-br from-[#0F0F1A] via-[#1A1A2E] to-[#0F0F1A] overflow-hidden">
-      <div className="w-full max-w-7xl mx-auto">
+    <section id="features" className="min-h-screen flex flex-col items-center justify-start px-8 py-8 overflow-hidden relative" style={{ 
+      background: `
+        radial-gradient(circle at 25% 25%, rgba(138, 43, 226, 0.1) 0%, transparent 60%),
+        radial-gradient(circle at 75% 75%, rgba(191, 64, 191, 0.08) 0%, transparent 60%),
+        linear-gradient(135deg, #000000 0%, #0f0f1a 50%, #000000 100%)
+      `
+    }}>
+      {/* Static Background Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Static Glow Effects */}
+        <div className="absolute top-0 left-0 w-full h-full">
+          <div className="absolute top-20 left-20 w-40 h-40 bg-[#8A2BE2] rounded-full opacity-3 blur-3xl"></div>
+          <div className="absolute bottom-20 right-20 w-32 h-32 bg-[#FF00FF] rounded-full opacity-2 blur-3xl"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 bg-[#BF40BF] rounded-full opacity-2 blur-3xl"></div>
+        </div>
+      </div>
+      
+      <div className="w-full max-w-7xl mx-auto relative z-10">
         {/* Features Header */}
         <div className="text-center mb-8 mt-8">
           <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold mb-8 font-orbitron">
@@ -156,14 +172,14 @@ const FeaturesSection: React.FC = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center space-x-4 text-[#8A2BE2] mb-8">
-            <div className="w-20 h-px bg-gradient-to-r from-transparent to-[#8A2BE2]"></div>
-            <div className="w-4 h-4 bg-[#8A2BE2] rounded-full animate-pulse"></div>
-            <div className="w-20 h-px bg-gradient-to-l from-transparent to-[#8A2BE2]"></div>
+        <div className="text-center mt-12">
+          <div className="inline-flex items-center space-x-4 text-[#8A2BE2] mb-6">
+            <div className="w-16 h-px bg-gradient-to-r from-transparent to-[#8A2BE2]"></div>
+            <div className="w-3 h-3 bg-[#8A2BE2] rounded-full animate-pulse"></div>
+            <div className="w-16 h-px bg-gradient-to-l from-transparent to-[#8A2BE2]"></div>
           </div>
           
-          <p className="text-gray-400 text-xl font-orbitron tracking-wider">
+          <p className="text-gray-400 text-lg font-orbitron tracking-wider">
             Powered by Rise Chain Technology
           </p>
         </div>
