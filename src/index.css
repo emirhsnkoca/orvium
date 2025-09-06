@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* Custom font imports and global styles */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Audiowide:wght@400&family=Michroma:wght@400&family=Playfair+Display:wght@400;500;600;700;800;900&family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 
 /* Font family utilities */
 .font-poppins {
@@ -12,6 +12,26 @@
 
 .font-rajdhani {
   font-family: 'Rajdhani', sans-serif;
+}
+
+.font-orbitron {
+  font-family: 'Orbitron', monospace;
+}
+
+.font-audiowide {
+  font-family: 'Audiowide', cursive;
+}
+
+.font-michroma {
+  font-family: 'Michroma', monospace;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
 }
 
 /* Custom scrollbar */
@@ -108,6 +128,79 @@ input:focus {
 .animate-gradient {
   background-size: 200% 200%;
   animation: gradient-shift 3s ease infinite;
+}
+
+/* Gradient X animation for brand text */
+@keyframes gradient-x {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-x {
+  animation: gradient-x 4s ease-in-out infinite;
+}
+
+.bg-300\% {
+  background-size: 300% 300%;
+}
+
+/* Purple to Pink left-to-right gradient animation */
+@keyframes purple-pink-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-purple-pink-flow {
+  animation: purple-pink-flow 3s ease-in-out infinite;
+  background-size: 200% 100%;
+}
+
+/* Text glow effect for nav items */
+@keyframes text-glow {
+  0%, 100% {
+    text-shadow: 0 0 5px rgba(138, 43, 226, 0.5), 0 0 10px rgba(138, 43, 226, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 0, 255, 0.8), 0 0 30px rgba(255, 0, 255, 0.6), 0 0 40px rgba(255, 0, 255, 0.4);
+  }
+}
+
+.animate-text-glow {
+  animation: text-glow 2s ease-in-out infinite;
+}
+
+/* Glow pulse effect for nav items */
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(138, 43, 226, 0.3), 0 0 10px rgba(138, 43, 226, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.6), 0 0 30px rgba(255, 0, 255, 0.4), 0 0 40px rgba(255, 0, 255, 0.2);
+  }
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 2s ease-in-out infinite;
 }
 
 /* Radial gradient utility */
