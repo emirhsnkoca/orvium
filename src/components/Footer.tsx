@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Youtube } from 'lucide-react';
+import { Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -50,13 +50,6 @@ const Footer: React.FC = () => {
             >
               <Youtube size={22} />
             </a>
-            {/* Mail */}
-            <a
-              href="#"
-              className="text-gray-400 hover:text-[#FF00FF] transition-all duration-200 transform hover:scale-110 p-3 rounded-xl hover:bg-gradient-to-r hover:from-[#8A2BE2]/20 hover:to-[#FF00FF]/20 backdrop-blur-sm border border-transparent hover:border-[#8A2BE2]/30 hover:shadow-lg hover:shadow-[#8A2BE2]/20"
-            >
-              <Mail size={22} />
-            </a>
           </div>
 
           {/* Right Section - Copyright */}
@@ -75,7 +68,6 @@ const Footer: React.FC = () => {
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-0 left-0 w-full h-full">
             <div className="absolute top-4 left-4 w-20 h-20 bg-[#8A2BE2] rounded-full opacity-5 blur-2xl"></div>
-            <div className="absolute bottom-4 right-4 w-16 h-16 bg-[#FF00FF] rounded-full opacity-4 blur-2xl"></div>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-[#BF40BF] rounded-full opacity-3 blur-3xl"></div>
           </div>
         </div>
