@@ -1,0 +1,1 @@
+{"version":3,"file":"IPInfoConfig.js","sourceRoot":"","sources":["../../../src/modules/ipinfo/IPInfoConfig.ts"],"names":[],"mappings":"AA6BA,MAAM,CAAC,MAAM,aAAa,GAAkB;IAC1C,OAAO,EAAE,KAAK;IACd,MAAM,EAAE,6CAA6C;IACrD,SAAS,EAAE,KAAK;IAChB,QAAQ,EAAE,KAAK;IACf,YAAY,EAAE,IAAI;IAClB,mBAAmB,EAAE,EAAE;IACvB,gBAAgB,EAAE,IAAI;CACvB,CAAA"}

@@ -1,0 +1,855 @@
+2025-09-06 20:52:37  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 20:52:37  INFO     Current FaucetStore schema version: uninitialized
+2025-09-06 20:52:37  INFO     Upgraded FaucetStore schema from version 0 to version 1
+2025-09-06 20:52:38  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:52:38  INFO     Enabled module: captcha
+2025-09-06 20:52:38  INFO     Enabled module: ensname
+2025-09-06 20:52:38  INFO     Enabled module: ipinfo
+2025-09-06 20:52:38  INFO     Enabled module: ethinfo
+2025-09-06 20:52:38  INFO     Enabled module: faucet-balance
+2025-09-06 20:52:38  INFO     Enabled module: faucet-outflow
+2025-09-06 20:52:38  INFO     Enabled module: recurring-limits
+2025-09-06 20:52:38  INFO     Enabled module: concurrency-limit
+2025-09-06 20:52:38  INFO     Enabled module: pow
+2025-09-06 20:52:38  INFO     Faucet initialization complete.
+2025-09-06 20:52:51  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:53:00  INFO     Faucet Process                                     Stats: CPU: 7.38%,  Memory: 26.27 MB/28.58 MB,   Event Loop Lag:  0.42ms
+2025-09-06 20:53:03  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:53:15  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:53:27  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:53:39  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:53:51  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:54:00  INFO     Faucet Process                                     Stats: CPU: 0.25%,  Memory: 26.79 MB/29.08 MB,   Event Loop Lag:  0.41ms
+2025-09-06 20:54:03  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:54:15  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:54:27  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:54:39  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:54:51  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:55:00  INFO     Faucet Process                                     Stats: CPU: 0.21%,  Memory: 27.48 MB/29.33 MB,   Event Loop Lag:  0.08ms
+2025-09-06 20:55:03  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:55:15  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:55:27  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:55:31  INFO     # Received SIGINT signal - shutdown faucet
+2025-09-06 20:56:46  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 20:56:47  INFO     Current FaucetStore schema version: 1
+2025-09-06 20:56:47  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:56:47  INFO     Enabled module: captcha
+2025-09-06 20:56:47  INFO     Enabled module: ensname
+2025-09-06 20:56:47  INFO     Enabled module: ipinfo
+2025-09-06 20:56:47  INFO     Enabled module: ethinfo
+2025-09-06 20:56:47  INFO     Enabled module: faucet-balance
+2025-09-06 20:56:47  INFO     Enabled module: faucet-outflow
+2025-09-06 20:56:47  INFO     Enabled module: recurring-limits
+2025-09-06 20:56:47  INFO     Enabled module: concurrency-limit
+2025-09-06 20:56:47  INFO     Enabled module: pow
+2025-09-06 20:56:47  INFO     Faucet initialization complete.
+2025-09-06 20:56:59  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:57:00  INFO     Faucet Process                                     Stats: CPU: 10.55%, Memory: 26.26 MB/28.58 MB,   Event Loop Lag:  0.25ms
+2025-09-06 20:57:11  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:57:23  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:57:35  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:57:47  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:57:59  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:58:00  INFO     Faucet Process                                     Stats: CPU: 0.22%,  Memory: 26.81 MB/29.08 MB,   Event Loop Lag:  0.12ms
+2025-09-06 20:58:11  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:58:23  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:58:35  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:58:47  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:58:56  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 20:58:57  INFO     Current FaucetStore schema version: 1
+2025-09-06 20:58:57  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:58:57  INFO     Enabled module: captcha
+2025-09-06 20:58:57  INFO     Enabled module: ensname
+2025-09-06 20:58:57  INFO     Enabled module: ipinfo
+2025-09-06 20:58:57  INFO     Enabled module: ethinfo
+2025-09-06 20:58:57  INFO     Enabled module: faucet-balance
+2025-09-06 20:58:57  INFO     Enabled module: faucet-outflow
+2025-09-06 20:58:57  INFO     Enabled module: recurring-limits
+2025-09-06 20:58:57  INFO     Enabled module: concurrency-limit
+2025-09-06 20:58:57  INFO     Enabled module: pow
+2025-09-06 20:58:57  INFO     Faucet initialization complete.
+2025-09-06 20:58:57  ERROR    ### Caught unhandled exception: Error: listen EADDRINUSE: address already in use :::8080
+  Exception origin: uncaughtException
+  Stack Trace: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at FaucetHttpServer.initialize (file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/webserv/FaucetHttpServer.js:38:25)
+    at file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/app.js:53:53
+
+2025-09-06 20:58:59  ERROR    Error loading wallet state for 0xCA9456991E0AA5d5321e88Bba44d405aAb401193: FetchError: invalid json response body at https://rpc.holesky.ethpandaops.io/ reason: Unexpected end of JSON input
+2025-09-06 20:59:00  INFO     Faucet Process                                     Stats: CPU: 0.16%,  Memory: 27.55 MB/29.33 MB,   Event Loop Lag:  0.06ms
+2025-09-06 20:59:06  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 20:59:22  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 20:59:22  INFO     Current FaucetStore schema version: 1
+2025-09-06 20:59:23  INFO     Web3 ChainCommon initialized with chainId 17000
+2025-09-06 20:59:23  INFO     Wallet 0xCA9456991E0AA5d5321e88Bba44d405aAb401193:  0 HolETH  [Nonce: 0]
+2025-09-06 20:59:23  INFO     Enabled module: captcha
+2025-09-06 20:59:23  INFO     Enabled module: ensname
+2025-09-06 20:59:23  INFO     Enabled module: ipinfo
+2025-09-06 20:59:23  INFO     Enabled module: ethinfo
+2025-09-06 20:59:23  INFO     Enabled module: faucet-balance
+2025-09-06 20:59:23  INFO     Enabled module: faucet-outflow
+2025-09-06 20:59:23  INFO     Enabled module: recurring-limits
+2025-09-06 20:59:23  INFO     Enabled module: concurrency-limit
+2025-09-06 20:59:23  INFO     Enabled module: pow
+2025-09-06 20:59:23  INFO     Faucet initialization complete.
+2025-09-06 20:59:47  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 20:59:48  INFO     Current FaucetStore schema version: 1
+2025-09-06 20:59:49  INFO     Web3 ChainCommon initialized with chainId 17000
+2025-09-06 20:59:49  INFO     Wallet 0xCA9456991E0AA5d5321e88Bba44d405aAb401193:  0 HolETH  [Nonce: 0]
+2025-09-06 20:59:49  INFO     Enabled module: captcha
+2025-09-06 20:59:49  INFO     Enabled module: ensname
+2025-09-06 20:59:49  INFO     Enabled module: ipinfo
+2025-09-06 20:59:49  INFO     Enabled module: ethinfo
+2025-09-06 20:59:49  INFO     Enabled module: faucet-balance
+2025-09-06 20:59:49  INFO     Enabled module: faucet-outflow
+2025-09-06 20:59:49  INFO     Enabled module: recurring-limits
+2025-09-06 20:59:49  INFO     Enabled module: concurrency-limit
+2025-09-06 20:59:49  INFO     Enabled module: pow
+2025-09-06 20:59:49  INFO     Faucet initialization complete.
+2025-09-06 20:59:49  ERROR    ### Caught unhandled exception: Error: listen EADDRINUSE: address already in use :::8080
+  Exception origin: uncaughtException
+  Stack Trace: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at FaucetHttpServer.initialize (file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/webserv/FaucetHttpServer.js:38:25)
+    at file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/app.js:53:53
+
+2025-09-06 21:00:00  INFO     # STATS # clients: 0, sessions: 0 (0 H/s, 0 idle), shares: 0 (0 HolETH), verify: 0 (reward: 0 HolETH, missed: 0 / -0 HolETH), claims: 0 (0 HolETH)
+2025-09-06 21:00:00  INFO     Faucet Process                                     Stats: CPU: 4.14%,  Memory: 25.74 MB/28.83 MB,   Event Loop Lag:  0.77ms
+2025-09-06 21:01:00  INFO     Faucet Process                                     Stats: CPU: 0.04%,  Memory: 25.90 MB/28.83 MB,   Event Loop Lag:  0.13ms
+2025-09-06 21:02:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 25.96 MB/28.83 MB,   Event Loop Lag:  0.14ms
+2025-09-06 21:03:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.02 MB/28.83 MB,   Event Loop Lag:  0.08ms
+2025-09-06 21:04:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.08 MB/28.83 MB,   Event Loop Lag:  0.43ms
+2025-09-06 21:04:32  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 21:04:32  INFO     Current FaucetStore schema version: 1
+2025-09-06 21:04:32  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 21:04:33  INFO     Wallet 0xCA9456991E0AA5d5321e88Bba44d405aAb401193:  0 RiseETH  [Nonce: 0]
+2025-09-06 21:04:33  INFO     Enabled module: captcha
+2025-09-06 21:04:33  INFO     Enabled module: ensname
+2025-09-06 21:04:33  INFO     Enabled module: ipinfo
+2025-09-06 21:04:33  INFO     Enabled module: ethinfo
+2025-09-06 21:04:33  INFO     Enabled module: faucet-balance
+2025-09-06 21:04:33  INFO     Enabled module: faucet-outflow
+2025-09-06 21:04:33  INFO     Enabled module: recurring-limits
+2025-09-06 21:04:33  INFO     Enabled module: concurrency-limit
+2025-09-06 21:04:33  INFO     Enabled module: pow
+2025-09-06 21:04:33  INFO     Faucet initialization complete.
+2025-09-06 21:04:33  ERROR    ### Caught unhandled exception: Error: listen EADDRINUSE: address already in use :::8080
+  Exception origin: uncaughtException
+  Stack Trace: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at FaucetHttpServer.initialize (file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/webserv/FaucetHttpServer.js:38:25)
+    at file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/app.js:53:53
+
+2025-09-06 21:05:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.14 MB/28.83 MB,   Event Loop Lag:  0.14ms
+2025-09-06 21:05:25  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 21:05:31  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 21:05:32  INFO     Current FaucetStore schema version: 1
+2025-09-06 21:05:32  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 21:05:32  INFO     Wallet 0xCA9456991E0AA5d5321e88Bba44d405aAb401193:  0 RiseETH  [Nonce: 0]
+2025-09-06 21:05:32  INFO     Enabled module: captcha
+2025-09-06 21:05:32  INFO     Enabled module: ensname
+2025-09-06 21:05:32  INFO     Enabled module: ipinfo
+2025-09-06 21:05:32  INFO     Enabled module: ethinfo
+2025-09-06 21:05:32  INFO     Enabled module: faucet-balance
+2025-09-06 21:05:32  INFO     Enabled module: faucet-outflow
+2025-09-06 21:05:32  INFO     Enabled module: recurring-limits
+2025-09-06 21:05:32  INFO     Enabled module: concurrency-limit
+2025-09-06 21:05:32  INFO     Enabled module: pow
+2025-09-06 21:05:32  INFO     Faucet initialization complete.
+2025-09-06 21:06:00  INFO     Faucet Process                                     Stats: CPU: 5.20%,  Memory: 25.67 MB/28.58 MB,   Event Loop Lag:  0.25ms
+2025-09-06 21:07:00  INFO     Faucet Process                                     Stats: CPU: 0.06%,  Memory: 26.48 MB/28.83 MB,   Event Loop Lag:  0.10ms
+2025-09-06 21:07:12  INFO     Started PoW worker process [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]
+2025-09-06 21:07:12  INFO     New session for 0xcf87bf72d82a60A6b700130cA05188bDD89dA501 (IP: ::1, ID: 0cbccf1a-40f4-4344-a48e-874c45fb9e35)
+2025-09-06 21:08:00  INFO     Faucet Process                                     Stats: CPU: 0.16%,  Memory: 27.25 MB/29.58 MB,   Event Loop Lag:  0.09ms
+2025-09-06 21:08:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 2.91%,  Memory: 23.94 MB/25.88 MB,   Event Loop Lag:  0.14ms, Sessions: 1/1
+2025-09-06 21:08:12  INFO     session client closed: 0cbccf1a-40f4-4344-a48e-874c45fb9e35 () 0 RiseETH
+2025-09-06 21:08:12  INFO     Session 0cbccf1a-40f4-4344-a48e-874c45fb9e35 failed: [AMOUNT_TOO_LOW] drop amount lower than minimum
+2025-09-06 21:09:00  INFO     Faucet Process                                     Stats: CPU: 0.04%,  Memory: 27.40 MB/29.58 MB,   Event Loop Lag:  0.11ms
+2025-09-06 21:09:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.01%,  Memory: 24.03 MB/25.88 MB,   Event Loop Lag:  0.10ms, Sessions: 0/0
+2025-09-06 21:10:00  INFO     # STATS # clients: 0, sessions: 0 (0 H/s, 0 idle), shares: 10 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 21:10:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 27.48 MB/29.58 MB,   Event Loop Lag:  0.48ms
+2025-09-06 21:10:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.00%,  Memory: 24.03 MB/25.88 MB,   Event Loop Lag:  0.44ms, Sessions: 0/0
+2025-09-06 21:11:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.90 MB/29.83 MB,   Event Loop Lag:  0.16ms
+2025-09-06 21:11:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.00%,  Memory: 24.05 MB/25.88 MB,   Event Loop Lag:  0.13ms, Sessions: 0/0
+2025-09-06 21:12:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.96 MB/29.83 MB,   Event Loop Lag:  0.10ms
+2025-09-06 21:12:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.00%,  Memory: 24.06 MB/25.88 MB,   Event Loop Lag:  0.12ms, Sessions: 0/0
+2025-09-06 21:13:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 27.03 MB/29.83 MB,   Event Loop Lag:  0.10ms
+2025-09-06 21:13:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.00%,  Memory: 24.07 MB/25.88 MB,   Event Loop Lag:  0.13ms, Sessions: 0/0
+2025-09-06 21:14:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 27.09 MB/29.83 MB,   Event Loop Lag:  0.10ms
+2025-09-06 21:14:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.00%,  Memory: 24.07 MB/25.88 MB,   Event Loop Lag:  0.10ms, Sessions: 0/0
+2025-09-06 21:15:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 27.16 MB/29.83 MB,   Event Loop Lag:  0.11ms
+2025-09-06 21:15:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.00%,  Memory: 24.08 MB/25.88 MB,   Event Loop Lag:  0.12ms, Sessions: 0/0
+2025-09-06 21:15:33  INFO     Wallet 0xCA9456991E0AA5d5321e88Bba44d405aAb401193:  0 RiseETH  [Nonce: 0]
+2025-09-06 21:16:00  INFO     Faucet Process                                     Stats: CPU: 0.06%,  Memory: 27.58 MB/29.83 MB,   Event Loop Lag:  0.05ms
+2025-09-06 21:16:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.00%,  Memory: 24.08 MB/25.88 MB,   Event Loop Lag:  0.17ms, Sessions: 0/0
+2025-09-06 21:17:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 27.64 MB/29.83 MB,   Event Loop Lag:  0.09ms
+2025-09-06 21:17:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.00%,  Memory: 24.10 MB/25.88 MB,   Event Loop Lag:  0.13ms, Sessions: 0/0
+2025-09-06 21:18:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 27.03 MB/29.83 MB,   Event Loop Lag:  0.07ms
+2025-09-06 21:18:00  INFO     PoW server [671e4bd1-7ae0-462d-b8b8-27fe40b2dbe8]  Stats: CPU: 0.00%,  Memory: 24.10 MB/25.88 MB,   Event Loop Lag:  0.09ms, Sessions: 0/0
+2025-09-06 21:18:22  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 21:18:40  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 21:18:41  INFO     Current FaucetStore schema version: 1
+2025-09-06 21:18:41  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 21:18:41  INFO     Wallet 0x95c2C43A1A1661703d4dafE3744709545F05218d:  0 RiseETH  [Nonce: 0]
+2025-09-06 21:18:41  INFO     Enabled module: captcha
+2025-09-06 21:18:41  INFO     Enabled module: ensname
+2025-09-06 21:18:41  INFO     Enabled module: ipinfo
+2025-09-06 21:18:41  INFO     Enabled module: ethinfo
+2025-09-06 21:18:41  INFO     Enabled module: faucet-balance
+2025-09-06 21:18:41  INFO     Enabled module: faucet-outflow
+2025-09-06 21:18:41  INFO     Enabled module: recurring-limits
+2025-09-06 21:18:41  INFO     Enabled module: concurrency-limit
+2025-09-06 21:18:41  INFO     Enabled module: pow
+2025-09-06 21:18:41  INFO     Faucet initialization complete.
+2025-09-06 21:19:00  INFO     Faucet Process                                     Stats: CPU: 7.28%,  Memory: 25.77 MB/28.83 MB,   Event Loop Lag:  0.16ms
+2025-09-06 21:19:50  INFO     Started PoW worker process [d04cfcb9-e7b0-4005-828d-f7a07841fe75]
+2025-09-06 21:19:50  INFO     New session for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446 (IP: ::1, ID: 7d1f3d72-1b61-4ba0-a7d6-8d85130575b0)
+2025-09-06 21:19:59  INFO     session client closed: 7d1f3d72-1b61-4ba0-a7d6-8d85130575b0 () 0 RiseETH
+2025-09-06 21:19:59  INFO     Session 7d1f3d72-1b61-4ba0-a7d6-8d85130575b0 failed: [AMOUNT_TOO_LOW] drop amount lower than minimum
+2025-09-06 21:20:00  INFO     # STATS # clients: 0, sessions: 0 (0 H/s, 0 idle), shares: 3 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 21:20:00  INFO     Faucet Process                                     Stats: CPU: 0.16%,  Memory: 27.29 MB/30.33 MB,   Event Loop Lag:  0.17ms
+2025-09-06 21:20:00  INFO     PoW server [d04cfcb9-e7b0-4005-828d-f7a07841fe75]  Stats: CPU: 12.22%, Memory: 24.00 MB/27.13 MB,   Event Loop Lag:  0.50ms, Sessions: 0/0
+2025-09-06 21:21:00  INFO     Faucet Process                                     Stats: CPU: 0.04%,  Memory: 26.81 MB/29.83 MB,   Event Loop Lag:  0.13ms
+2025-09-06 21:21:00  INFO     PoW server [d04cfcb9-e7b0-4005-828d-f7a07841fe75]  Stats: CPU: 0.26%,  Memory: 23.63 MB/26.38 MB,   Event Loop Lag:  3.17ms, Sessions: 0/0
+2025-09-06 21:22:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.87 MB/29.83 MB,   Event Loop Lag:  0.05ms
+2025-09-06 21:22:00  INFO     PoW server [d04cfcb9-e7b0-4005-828d-f7a07841fe75]  Stats: CPU: 0.00%,  Memory: 23.65 MB/26.38 MB,   Event Loop Lag:  0.32ms, Sessions: 0/0
+2025-09-06 21:23:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.94 MB/29.83 MB,   Event Loop Lag:  0.31ms
+2025-09-06 21:23:00  INFO     PoW server [d04cfcb9-e7b0-4005-828d-f7a07841fe75]  Stats: CPU: 0.00%,  Memory: 23.68 MB/26.38 MB,   Event Loop Lag:  0.14ms, Sessions: 0/0
+2025-09-06 21:24:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 27.01 MB/29.83 MB,   Event Loop Lag:  0.32ms
+2025-09-06 21:24:00  INFO     PoW server [d04cfcb9-e7b0-4005-828d-f7a07841fe75]  Stats: CPU: 0.00%,  Memory: 23.69 MB/26.38 MB,   Event Loop Lag:  0.18ms, Sessions: 0/0
+2025-09-06 21:25:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 27.07 MB/29.83 MB,   Event Loop Lag:  0.81ms
+2025-09-06 21:25:00  INFO     PoW server [d04cfcb9-e7b0-4005-828d-f7a07841fe75]  Stats: CPU: 0.00%,  Memory: 23.70 MB/26.38 MB,   Event Loop Lag:  0.16ms, Sessions: 0/0
+2025-09-06 21:25:50  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 21:25:57  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 21:25:57  INFO     Current FaucetStore schema version: 1
+2025-09-06 21:25:57  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 21:25:58  INFO     Wallet 0x95c2C43A1A1661703d4dafE3744709545F05218d:  0 RiseETH  [Nonce: 0]
+2025-09-06 21:25:58  INFO     Enabled module: captcha
+2025-09-06 21:25:58  INFO     Enabled module: ensname
+2025-09-06 21:25:58  INFO     Enabled module: ipinfo
+2025-09-06 21:25:58  INFO     Enabled module: ethinfo
+2025-09-06 21:25:58  INFO     Enabled module: faucet-balance
+2025-09-06 21:25:58  INFO     Enabled module: faucet-outflow
+2025-09-06 21:25:58  INFO     Enabled module: recurring-limits
+2025-09-06 21:25:58  INFO     Enabled module: concurrency-limit
+2025-09-06 21:25:58  INFO     Enabled module: pow
+2025-09-06 21:25:58  INFO     Faucet initialization complete.
+2025-09-06 21:26:00  INFO     Faucet Process                                     Stats: CPU: 42.55%, Memory: 37.20 MB/61.13 MB,   Event Loop Lag:  0.20ms
+2025-09-06 21:27:00  INFO     Faucet Process                                     Stats: CPU: 0.34%,  Memory: 25.67 MB/28.58 MB,   Event Loop Lag:  0.09ms
+2025-09-06 21:27:24  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 21:30:55  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 21:30:56  INFO     Current FaucetStore schema version: 1
+2025-09-06 21:30:56  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 21:30:56  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  0.079 RiseETH  [Nonce: 1]
+2025-09-06 21:30:56  INFO     Enabled module: captcha
+2025-09-06 21:30:56  INFO     Enabled module: ensname
+2025-09-06 21:30:56  INFO     Enabled module: ipinfo
+2025-09-06 21:30:56  INFO     Enabled module: ethinfo
+2025-09-06 21:30:56  INFO     Enabled module: faucet-balance
+2025-09-06 21:30:56  INFO     Enabled module: faucet-outflow
+2025-09-06 21:30:56  INFO     Enabled module: recurring-limits
+2025-09-06 21:30:56  INFO     Enabled module: concurrency-limit
+2025-09-06 21:30:56  INFO     Enabled module: pow
+2025-09-06 21:30:56  INFO     Faucet initialization complete.
+2025-09-06 21:31:00  INFO     Faucet Process                                     Stats: CPU: 26.64%, Memory: 32.19 MB/64.38 MB,   Event Loop Lag:  0.34ms
+2025-09-06 21:32:00  INFO     Faucet Process                                     Stats: CPU: 0.38%,  Memory: 25.95 MB/28.83 MB,   Event Loop Lag:  0.14ms
+2025-09-06 21:33:00  INFO     Faucet Process                                     Stats: CPU: 0.05%,  Memory: 26.56 MB/28.83 MB,   Event Loop Lag:  0.12ms
+2025-09-06 21:33:06  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 21:33:14  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 21:33:14  INFO     Current FaucetStore schema version: 1
+2025-09-06 21:33:14  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 21:33:15  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  0.079 RiseETH  [Nonce: 1]
+2025-09-06 21:33:15  INFO     Enabled module: captcha
+2025-09-06 21:33:15  INFO     Enabled module: ensname
+2025-09-06 21:33:15  INFO     Enabled module: ipinfo
+2025-09-06 21:33:15  INFO     Enabled module: ethinfo
+2025-09-06 21:33:15  INFO     Enabled module: faucet-balance
+2025-09-06 21:33:15  INFO     Enabled module: faucet-outflow
+2025-09-06 21:33:15  INFO     Enabled module: recurring-limits
+2025-09-06 21:33:15  INFO     Enabled module: concurrency-limit
+2025-09-06 21:33:15  INFO     Enabled module: pow
+2025-09-06 21:33:15  INFO     Faucet initialization complete.
+2025-09-06 21:34:00  INFO     Faucet Process                                     Stats: CPU: 3.11%,  Memory: 25.99 MB/28.83 MB,   Event Loop Lag:  0.33ms
+2025-09-06 21:34:02  INFO     Started PoW worker process [9e4b930e-94a1-43a2-bcbc-c4a283188e73]
+2025-09-06 21:34:02  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: df0fdb34-83ad-4c8d-9b29-f93d093e95c8)
+2025-09-06 21:34:46  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 21:35:48  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 21:35:56  INFO     Current FaucetStore schema version: 1
+2025-09-06 21:35:56  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 21:35:58  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  0.079 RiseETH  [Nonce: 1]
+2025-09-06 21:35:58  INFO     Enabled module: captcha
+2025-09-06 21:35:58  INFO     Enabled module: ensname
+2025-09-06 21:35:58  INFO     Enabled module: ipinfo
+2025-09-06 21:35:58  INFO     Enabled module: ethinfo
+2025-09-06 21:35:58  INFO     Enabled module: faucet-balance
+2025-09-06 21:35:58  INFO     Enabled module: faucet-outflow
+2025-09-06 21:35:58  INFO     Enabled module: recurring-limits
+2025-09-06 21:35:58  INFO     Enabled module: concurrency-limit
+2025-09-06 21:35:58  INFO     Enabled module: pow
+2025-09-06 21:36:00  INFO     Faucet Process                                     Stats: CPU: 19.31%, Memory: 30.43 MB/62.48 MB,   Event Loop Lag: 26.73ms
+2025-09-06 21:36:06  INFO     Started PoW worker process [f8694aba-b103-470f-97cb-cc6ad5055f45]
+2025-09-06 21:36:06  INFO     Restored 1 sessions from database.
+2025-09-06 21:36:06  INFO     Faucet initialization complete.
+2025-09-06 21:37:00  INFO     PoW server [f8694aba-b103-470f-97cb-cc6ad5055f45]  Stats: CPU: 3.06%,  Memory: 23.61 MB/26.38 MB,   Event Loop Lag:  0.73ms, Sessions: 1/1
+2025-09-06 21:37:00  INFO     Faucet Process                                     Stats: CPU: 0.51%,  Memory: 25.91 MB/28.58 MB,   Event Loop Lag:  8.39ms
+2025-09-06 21:38:00  INFO     PoW server [f8694aba-b103-470f-97cb-cc6ad5055f45]  Stats: CPU: 0.05%,  Memory: 23.74 MB/26.38 MB,   Event Loop Lag:  0.23ms, Sessions: 1/1
+2025-09-06 21:38:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.12 MB/28.58 MB,   Event Loop Lag:  0.09ms
+2025-09-06 21:40:05  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 21:40:06  INFO     Current FaucetStore schema version: 1
+2025-09-06 21:40:06  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 21:40:06  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  0.087 RiseETH  [Nonce: 1]
+2025-09-06 21:40:06  INFO     Enabled module: captcha
+2025-09-06 21:40:06  INFO     Enabled module: ensname
+2025-09-06 21:40:06  INFO     Enabled module: ipinfo
+2025-09-06 21:40:06  INFO     Enabled module: ethinfo
+2025-09-06 21:40:06  INFO     Enabled module: faucet-balance
+2025-09-06 21:40:06  INFO     Enabled module: faucet-outflow
+2025-09-06 21:40:06  INFO     Enabled module: recurring-limits
+2025-09-06 21:40:06  INFO     Enabled module: concurrency-limit
+2025-09-06 21:40:06  INFO     Enabled module: pow
+2025-09-06 21:40:07  INFO     Started PoW worker process [f52aeec5-d936-47f9-b2c0-9cfc87c82279]
+2025-09-06 21:40:07  INFO     Restored 1 sessions from database.
+2025-09-06 21:40:07  INFO     Faucet initialization complete.
+2025-09-06 21:41:00  INFO     Faucet Process                                     Stats: CPU: 2.70%,  Memory: 26.05 MB/28.83 MB,   Event Loop Lag:  0.28ms
+2025-09-06 21:41:00  INFO     PoW server [f52aeec5-d936-47f9-b2c0-9cfc87c82279]  Stats: CPU: 1.43%,  Memory: 23.46 MB/25.88 MB,   Event Loop Lag:  0.25ms, Sessions: 0/1
+2025-09-06 21:41:25  INFO     Session 50f70215-1516-4d1e-a8c8-6dca34e4aef0 failed: [CONCURRENCY_LIMIT] Only 1 concurrent sessions allowed per IP
+2025-09-06 21:41:45  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 21:41:51  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 21:41:52  INFO     Current FaucetStore schema version: 1
+2025-09-06 21:41:52  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 21:41:52  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  0.137 RiseETH  [Nonce: 1]
+2025-09-06 21:41:52  INFO     Enabled module: captcha
+2025-09-06 21:41:52  INFO     Enabled module: ensname
+2025-09-06 21:41:52  INFO     Enabled module: ipinfo
+2025-09-06 21:41:52  INFO     Enabled module: ethinfo
+2025-09-06 21:41:52  INFO     Enabled module: faucet-balance
+2025-09-06 21:41:52  INFO     Enabled module: faucet-outflow
+2025-09-06 21:41:52  INFO     Enabled module: recurring-limits
+2025-09-06 21:41:52  INFO     Enabled module: concurrency-limit
+2025-09-06 21:41:52  INFO     Enabled module: pow
+2025-09-06 21:41:53  INFO     Started PoW worker process [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]
+2025-09-06 21:41:53  INFO     Restored 1 sessions from database.
+2025-09-06 21:41:53  INFO     Faucet initialization complete.
+2025-09-06 21:41:54  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: 7dd1e214-90db-4905-8bd0-d4439cdb541a)
+2025-09-06 21:42:00  INFO     Faucet Process                                     Stats: CPU: 15.47%, Memory: 26.28 MB/32.83 MB,   Event Loop Lag:  0.27ms
+2025-09-06 21:42:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 7.79%,  Memory: 29.23 MB/58.13 MB,   Event Loop Lag:  0.32ms, Sessions: 1/2
+2025-09-06 21:43:00  INFO     Faucet Process                                     Stats: CPU: 0.31%,  Memory: 26.45 MB/29.58 MB,   Event Loop Lag:  5.03ms
+2025-09-06 21:43:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.87%,  Memory: 24.05 MB/25.88 MB,   Event Loop Lag:  5.21ms, Sessions: 1/2
+2025-09-06 21:44:00  INFO     Faucet Process                                     Stats: CPU: 0.04%,  Memory: 26.78 MB/29.58 MB,   Event Loop Lag:  0.16ms
+2025-09-06 21:44:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.57%,  Memory: 24.40 MB/25.88 MB,   Event Loop Lag:  0.14ms, Sessions: 1/2
+2025-09-06 21:45:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 27.00 MB/29.58 MB,   Event Loop Lag:  6.14ms
+2025-09-06 21:45:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.47%,  Memory: 24.62 MB/25.88 MB,   Event Loop Lag:  4.46ms, Sessions: 1/2
+2025-09-06 21:46:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 27.11 MB/29.58 MB,   Event Loop Lag:  0.54ms
+2025-09-06 21:46:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.09%,  Memory: 23.88 MB/26.88 MB,   Event Loop Lag:  0.13ms, Sessions: 1/2
+2025-09-06 21:47:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.45 MB/30.58 MB,   Event Loop Lag:  1.72ms
+2025-09-06 21:47:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.13%,  Memory: 23.97 MB/26.88 MB,   Event Loop Lag:  1.55ms, Sessions: 1/2
+2025-09-06 21:47:13  INFO     session client closed: 7dd1e214-90db-4905-8bd0-d4439cdb541a () 0 RiseETH
+2025-09-06 21:47:13  INFO     Session 7dd1e214-90db-4905-8bd0-d4439cdb541a failed: [AMOUNT_TOO_LOW] drop amount lower than minimum
+2025-09-06 21:48:00  INFO     Faucet Process                                     Stats: CPU: 0.04%,  Memory: 26.63 MB/30.58 MB,   Event Loop Lag:  0.14ms
+2025-09-06 21:48:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.01%,  Memory: 24.02 MB/27.13 MB,   Event Loop Lag:  0.12ms, Sessions: 0/1
+2025-09-06 21:49:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.69 MB/30.58 MB,   Event Loop Lag:  0.09ms
+2025-09-06 21:49:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.03 MB/27.13 MB,   Event Loop Lag:  0.09ms, Sessions: 0/1
+2025-09-06 21:50:00  INFO     # STATS # clients: 0, sessions: 1 (208 H/s, 1 idle), shares: 44 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 21:50:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.77 MB/30.58 MB,   Event Loop Lag:  0.09ms
+2025-09-06 21:50:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.03 MB/27.13 MB,   Event Loop Lag:  0.34ms, Sessions: 0/1
+2025-09-06 21:51:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.84 MB/30.58 MB,   Event Loop Lag:  0.12ms
+2025-09-06 21:51:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.04 MB/27.13 MB,   Event Loop Lag:  0.15ms, Sessions: 0/1
+2025-09-06 21:51:54  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  0.137 RiseETH  [Nonce: 1]
+2025-09-06 21:52:00  INFO     Faucet Process                                     Stats: CPU: 0.11%,  Memory: 26.72 MB/29.83 MB,   Event Loop Lag:  0.06ms
+2025-09-06 21:52:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.05 MB/27.13 MB,   Event Loop Lag:  0.05ms, Sessions: 0/1
+2025-09-06 21:53:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.92 MB/29.83 MB,   Event Loop Lag:  0.07ms
+2025-09-06 21:53:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.05 MB/27.13 MB,   Event Loop Lag:  0.07ms, Sessions: 0/1
+2025-09-06 21:54:00  INFO     Faucet Process                                     Stats: CPU: 0.04%,  Memory: 27.08 MB/29.83 MB,   Event Loop Lag:  0.10ms
+2025-09-06 21:54:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.06 MB/27.13 MB,   Event Loop Lag:  0.08ms, Sessions: 0/1
+2025-09-06 21:55:00  INFO     Faucet Process                                     Stats: CPU: 0.04%,  Memory: 27.42 MB/29.83 MB,   Event Loop Lag:  0.09ms
+2025-09-06 21:55:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.06 MB/27.13 MB,   Event Loop Lag:  0.10ms, Sessions: 0/1
+2025-09-06 21:56:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 27.49 MB/29.83 MB,   Event Loop Lag:  0.04ms
+2025-09-06 21:56:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.06 MB/27.13 MB,   Event Loop Lag:  0.06ms, Sessions: 0/1
+2025-09-06 21:57:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.86 MB/29.83 MB,   Event Loop Lag:  0.09ms
+2025-09-06 21:57:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.07 MB/27.13 MB,   Event Loop Lag:  0.11ms, Sessions: 0/1
+2025-09-06 21:58:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.93 MB/29.83 MB,   Event Loop Lag:  0.06ms
+2025-09-06 21:58:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.07 MB/27.13 MB,   Event Loop Lag:  0.08ms, Sessions: 0/1
+2025-09-06 21:59:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.98 MB/29.83 MB,   Event Loop Lag:  0.09ms
+2025-09-06 21:59:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.07 MB/27.13 MB,   Event Loop Lag:  0.10ms, Sessions: 0/1
+2025-09-06 22:00:00  INFO     # STATS # clients: 0, sessions: 1 (208 H/s, 1 idle), shares: 0 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 22:00:00  INFO     Faucet Process                                     Stats: CPU: 0.05%,  Memory: 27.42 MB/29.83 MB,   Event Loop Lag:  0.04ms
+2025-09-06 22:00:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.08 MB/27.13 MB,   Event Loop Lag:  0.04ms, Sessions: 0/1
+2025-09-06 22:00:25  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: 330f9b67-e5d8-43db-8708-07fa2e605fb2)
+2025-09-06 22:01:00  INFO     Faucet Process                                     Stats: CPU: 0.08%,  Memory: 27.35 MB/29.83 MB,   Event Loop Lag: 10.32ms
+2025-09-06 22:01:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.22%,  Memory: 24.20 MB/27.13 MB,   Event Loop Lag:  2.07ms, Sessions: 1/2
+2025-09-06 22:01:32  INFO     session client closed: 330f9b67-e5d8-43db-8708-07fa2e605fb2 () 0 RiseETH
+2025-09-06 22:01:32  INFO     Session 330f9b67-e5d8-43db-8708-07fa2e605fb2 failed: [AMOUNT_TOO_LOW] drop amount lower than minimum
+2025-09-06 22:01:55  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  0.319 RiseETH  [Nonce: 1]
+2025-09-06 22:02:00  INFO     Faucet Process                                     Stats: CPU: 0.07%,  Memory: 27.30 MB/30.08 MB,   Event Loop Lag:  0.04ms
+2025-09-06 22:02:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.14%,  Memory: 24.32 MB/27.13 MB,   Event Loop Lag:  0.07ms, Sessions: 0/1
+2025-09-06 22:03:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 27.37 MB/30.08 MB,   Event Loop Lag:  0.10ms
+2025-09-06 22:03:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.32 MB/27.13 MB,   Event Loop Lag:  0.10ms, Sessions: 0/1
+2025-09-06 22:04:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 27.43 MB/30.08 MB,   Event Loop Lag:  0.05ms
+2025-09-06 22:04:00  INFO     PoW server [1b2f09b9-e9c4-41d8-b3e5-f4d4f5077689]  Stats: CPU: 0.00%,  Memory: 24.32 MB/27.13 MB,   Event Loop Lag:  0.13ms, Sessions: 0/1
+2025-09-06 22:04:43  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:04:44  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:04:44  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:04:44  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:04:44  INFO     Enabled module: captcha
+2025-09-06 22:04:44  INFO     Enabled module: ensname
+2025-09-06 22:04:44  INFO     Enabled module: ipinfo
+2025-09-06 22:04:44  INFO     Enabled module: ethinfo
+2025-09-06 22:04:44  INFO     Enabled module: faucet-balance
+2025-09-06 22:04:44  INFO     Enabled module: faucet-outflow
+2025-09-06 22:04:44  INFO     Enabled module: recurring-limits
+2025-09-06 22:04:44  INFO     Enabled module: concurrency-limit
+2025-09-06 22:04:44  INFO     Enabled module: pow
+2025-09-06 22:04:44  INFO     Started PoW worker process [1f6d3cb6-ff68-4f5f-b6d0-9d0ee84c6e9d]
+2025-09-06 22:04:44  INFO     Restored 1 sessions from database.
+2025-09-06 22:04:44  INFO     Faucet initialization complete.
+2025-09-06 22:04:44  ERROR    ### Caught unhandled exception: Error: listen EADDRINUSE: address already in use :::8080
+  Exception origin: uncaughtException
+  Stack Trace: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at FaucetHttpServer.initialize (file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/webserv/FaucetHttpServer.js:38:25)
+    at file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/app.js:53:53
+
+2025-09-06 22:04:51  INFO     # Received SIGINT signal - shutdown faucet
+2025-09-06 22:04:55  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:04:56  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:04:56  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:04:56  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:04:56  INFO     Enabled module: captcha
+2025-09-06 22:04:56  INFO     Enabled module: ensname
+2025-09-06 22:04:56  INFO     Enabled module: ipinfo
+2025-09-06 22:04:56  INFO     Enabled module: ethinfo
+2025-09-06 22:04:56  INFO     Enabled module: faucet-balance
+2025-09-06 22:04:56  INFO     Enabled module: faucet-outflow
+2025-09-06 22:04:56  INFO     Enabled module: recurring-limits
+2025-09-06 22:04:56  INFO     Enabled module: concurrency-limit
+2025-09-06 22:04:56  INFO     Enabled module: pow
+2025-09-06 22:04:57  INFO     Started PoW worker process [0c5a1ebe-313b-49c2-9e91-ed6598e1999c]
+2025-09-06 22:04:57  INFO     Restored 1 sessions from database.
+2025-09-06 22:04:57  INFO     Faucet initialization complete.
+2025-09-06 22:05:00  INFO     Faucet Process                                     Stats: CPU: 27.31%, Memory: 30.89 MB/62.86 MB,   Event Loop Lag:  0.24ms
+2025-09-06 22:05:00  INFO     PoW server [0c5a1ebe-313b-49c2-9e91-ed6598e1999c]  Stats: CPU: 19.35%, Memory: 30.14 MB/55.63 MB,   Event Loop Lag:  0.35ms, Sessions: 0/1
+2025-09-06 22:05:23  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: cb6dad9e-2281-46a7-9e6c-ece9c9f5148f)
+2025-09-06 22:06:00  INFO     Faucet Process                                     Stats: CPU: 0.51%,  Memory: 26.61 MB/30.33 MB,   Event Loop Lag:  0.09ms
+2025-09-06 22:06:00  INFO     PoW server [0c5a1ebe-313b-49c2-9e91-ed6598e1999c]  Stats: CPU: 0.34%,  Memory: 23.59 MB/26.38 MB,   Event Loop Lag:  0.09ms, Sessions: 1/2
+2025-09-06 22:06:08  INFO     # Received SIGINT signal - shutdown faucet
+2025-09-06 22:06:12  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:06:13  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:06:13  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:06:13  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:06:13  INFO     Enabled module: captcha
+2025-09-06 22:06:13  INFO     Enabled module: ensname
+2025-09-06 22:06:13  INFO     Enabled module: ipinfo
+2025-09-06 22:06:13  INFO     Enabled module: ethinfo
+2025-09-06 22:06:13  INFO     Enabled module: faucet-balance
+2025-09-06 22:06:13  INFO     Enabled module: faucet-outflow
+2025-09-06 22:06:13  INFO     Enabled module: recurring-limits
+2025-09-06 22:06:13  INFO     Enabled module: concurrency-limit
+2025-09-06 22:06:13  INFO     Enabled module: pow
+2025-09-06 22:06:14  INFO     Started PoW worker process [16f388be-214f-4fdc-9e15-0f13e2a94728]
+2025-09-06 22:06:14  INFO     Restored 2 sessions from database.
+2025-09-06 22:06:14  INFO     Faucet initialization complete.
+2025-09-06 22:06:32  INFO     # Received SIGINT signal - shutdown faucet
+2025-09-06 22:06:39  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:06:40  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:06:40  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:06:41  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:06:41  INFO     Enabled module: captcha
+2025-09-06 22:06:41  INFO     Enabled module: ensname
+2025-09-06 22:06:41  INFO     Enabled module: ipinfo
+2025-09-06 22:06:41  INFO     Enabled module: ethinfo
+2025-09-06 22:06:41  INFO     Enabled module: faucet-balance
+2025-09-06 22:06:41  INFO     Enabled module: faucet-outflow
+2025-09-06 22:06:41  INFO     Enabled module: recurring-limits
+2025-09-06 22:06:41  INFO     Enabled module: concurrency-limit
+2025-09-06 22:06:41  INFO     Enabled module: pow
+2025-09-06 22:06:41  INFO     Started PoW worker process [e0ded98b-18fb-482d-9a69-e2606b12b671]
+2025-09-06 22:06:41  INFO     Restored 2 sessions from database.
+2025-09-06 22:06:41  INFO     Faucet initialization complete.
+2025-09-06 22:07:00  INFO     Faucet Process                                     Stats: CPU: 8.96%,  Memory: 25.84 MB/28.83 MB,   Event Loop Lag:  0.30ms
+2025-09-06 22:07:00  INFO     PoW server [e0ded98b-18fb-482d-9a69-e2606b12b671]  Stats: CPU: 5.33%,  Memory: 23.46 MB/25.88 MB,   Event Loop Lag: 10.95ms, Sessions: 1/2
+2025-09-06 22:08:00  INFO     Faucet Process                                     Stats: CPU: 0.04%,  Memory: 26.03 MB/28.83 MB,   Event Loop Lag:  0.06ms
+2025-09-06 22:08:00  INFO     PoW server [e0ded98b-18fb-482d-9a69-e2606b12b671]  Stats: CPU: 0.30%,  Memory: 23.67 MB/25.88 MB,   Event Loop Lag:  0.06ms, Sessions: 1/2
+2025-09-06 22:09:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.18 MB/28.83 MB,   Event Loop Lag:  0.09ms
+2025-09-06 22:09:00  INFO     PoW server [e0ded98b-18fb-482d-9a69-e2606b12b671]  Stats: CPU: 0.10%,  Memory: 23.81 MB/25.88 MB,   Event Loop Lag:  0.07ms, Sessions: 1/2
+2025-09-06 22:10:00  INFO     # STATS # clients: 1, sessions: 2 (293 H/s, 1 idle), shares: 6 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 22:10:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.45 MB/28.83 MB,   Event Loop Lag:  0.11ms
+2025-09-06 22:10:00  INFO     PoW server [e0ded98b-18fb-482d-9a69-e2606b12b671]  Stats: CPU: 0.01%,  Memory: 23.94 MB/25.88 MB,   Event Loop Lag:  0.15ms, Sessions: 1/2
+2025-09-06 22:10:59  INFO     session client closed: cb6dad9e-2281-46a7-9e6c-ece9c9f5148f () 0 RiseETH
+2025-09-06 22:10:59  INFO     Session cb6dad9e-2281-46a7-9e6c-ece9c9f5148f failed: [AMOUNT_TOO_LOW] drop amount lower than minimum
+2025-09-06 22:11:00  INFO     Faucet Process                                     Stats: CPU: 0.07%,  Memory: 26.97 MB/29.08 MB,   Event Loop Lag:  0.14ms
+2025-09-06 22:11:00  INFO     PoW server [e0ded98b-18fb-482d-9a69-e2606b12b671]  Stats: CPU: 0.02%,  Memory: 24.12 MB/25.88 MB,   Event Loop Lag:  0.11ms, Sessions: 0/1
+2025-09-06 22:11:02  INFO     # Received SIGINT signal - shutdown faucet
+2025-09-06 22:11:06  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:11:07  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:11:07  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:11:07  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:11:07  INFO     Enabled module: captcha
+2025-09-06 22:11:07  INFO     Enabled module: ensname
+2025-09-06 22:11:07  INFO     Enabled module: ipinfo
+2025-09-06 22:11:07  INFO     Enabled module: ethinfo
+2025-09-06 22:11:07  INFO     Enabled module: faucet-balance
+2025-09-06 22:11:07  INFO     Enabled module: faucet-outflow
+2025-09-06 22:11:07  INFO     Enabled module: recurring-limits
+2025-09-06 22:11:07  INFO     Enabled module: concurrency-limit
+2025-09-06 22:11:07  INFO     Enabled module: pow
+2025-09-06 22:11:07  INFO     Started PoW worker process [2d764bed-c17a-4e14-a2b3-fa03ba8d09f0]
+2025-09-06 22:11:07  INFO     Restored 1 sessions from database.
+2025-09-06 22:11:07  INFO     Faucet initialization complete.
+2025-09-06 22:11:16  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: 0bd560f5-cc85-4ae2-a1aa-8a32ad186bd3)
+2025-09-06 22:12:00  INFO     Faucet Process                                     Stats: CPU: 2.51%,  Memory: 27.00 MB/29.08 MB,   Event Loop Lag:  7.53ms
+2025-09-06 22:12:00  INFO     PoW server [2d764bed-c17a-4e14-a2b3-fa03ba8d09f0]  Stats: CPU: 1.69%,  Memory: 23.68 MB/25.63 MB,   Event Loop Lag:  0.91ms, Sessions: 1/2
+2025-09-06 22:12:11  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 22:12:26  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:12:26  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:12:26  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:12:27  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:12:27  INFO     Enabled module: captcha
+2025-09-06 22:12:27  INFO     Enabled module: ensname
+2025-09-06 22:12:27  INFO     Enabled module: ipinfo
+2025-09-06 22:12:27  INFO     Enabled module: ethinfo
+2025-09-06 22:12:27  INFO     Enabled module: faucet-balance
+2025-09-06 22:12:27  INFO     Enabled module: faucet-outflow
+2025-09-06 22:12:27  INFO     Enabled module: recurring-limits
+2025-09-06 22:12:27  INFO     Enabled module: concurrency-limit
+2025-09-06 22:12:27  INFO     Enabled module: pow
+2025-09-06 22:12:27  INFO     Started PoW worker process [9a78a87b-6699-474f-968f-ee424d0621bb]
+2025-09-06 22:12:27  INFO     Restored 2 sessions from database.
+2025-09-06 22:12:27  INFO     Faucet initialization complete.
+2025-09-06 22:13:00  INFO     Faucet Process                                     Stats: CPU: 3.90%,  Memory: 25.88 MB/28.58 MB,   Event Loop Lag:  0.49ms
+2025-09-06 22:13:00  INFO     PoW server [9a78a87b-6699-474f-968f-ee424d0621bb]  Stats: CPU: 2.10%,  Memory: 23.48 MB/25.88 MB,   Event Loop Lag:  0.27ms, Sessions: 1/2
+2025-09-06 22:13:31  INFO     # Received SIGINT signal - shutdown faucet
+2025-09-06 22:13:38  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:13:39  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:13:39  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:13:39  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:13:39  INFO     Enabled module: captcha
+2025-09-06 22:13:39  INFO     Enabled module: ensname
+2025-09-06 22:13:39  INFO     Enabled module: ipinfo
+2025-09-06 22:13:39  INFO     Enabled module: ethinfo
+2025-09-06 22:13:39  INFO     Enabled module: faucet-balance
+2025-09-06 22:13:39  INFO     Enabled module: faucet-outflow
+2025-09-06 22:13:39  INFO     Enabled module: recurring-limits
+2025-09-06 22:13:39  INFO     Enabled module: concurrency-limit
+2025-09-06 22:13:39  INFO     Enabled module: pow
+2025-09-06 22:13:40  INFO     Started PoW worker process [8598651c-6d5f-4eef-b6ed-cd8e839b4e95]
+2025-09-06 22:13:40  INFO     Restored 2 sessions from database.
+2025-09-06 22:13:40  INFO     Faucet initialization complete.
+2025-09-06 22:14:00  INFO     Faucet Process                                     Stats: CPU: 6.61%,  Memory: 26.00 MB/29.08 MB,   Event Loop Lag:  0.25ms
+2025-09-06 22:14:00  INFO     PoW server [8598651c-6d5f-4eef-b6ed-cd8e839b4e95]  Stats: CPU: 3.80%,  Memory: 23.45 MB/26.13 MB,   Event Loop Lag:  0.22ms, Sessions: 0/2
+2025-09-06 22:14:14  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: cc3ca102-3656-4a8b-ba12-96067ac75808)
+2025-09-06 22:15:00  INFO     Faucet Process                                     Stats: CPU: 0.12%,  Memory: 26.67 MB/30.33 MB,   Event Loop Lag:  0.20ms
+2025-09-06 22:15:00  INFO     PoW server [8598651c-6d5f-4eef-b6ed-cd8e839b4e95]  Stats: CPU: 0.02%,  Memory: 23.68 MB/26.13 MB,   Event Loop Lag:  0.11ms, Sessions: 1/3
+2025-09-06 22:16:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.78 MB/30.33 MB,   Event Loop Lag:  0.23ms
+2025-09-06 22:16:00  INFO     PoW server [8598651c-6d5f-4eef-b6ed-cd8e839b4e95]  Stats: CPU: 0.28%,  Memory: 23.79 MB/26.13 MB,   Event Loop Lag:  0.74ms, Sessions: 1/3
+2025-09-06 22:16:09  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 22:16:28  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:16:32  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:16:32  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:16:32  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:16:32  INFO     Enabled module: captcha
+2025-09-06 22:16:32  INFO     Enabled module: ensname
+2025-09-06 22:16:32  INFO     Enabled module: ipinfo
+2025-09-06 22:16:32  INFO     Enabled module: ethinfo
+2025-09-06 22:16:32  INFO     Enabled module: faucet-balance
+2025-09-06 22:16:32  INFO     Enabled module: faucet-outflow
+2025-09-06 22:16:32  INFO     Enabled module: recurring-limits
+2025-09-06 22:16:32  INFO     Enabled module: concurrency-limit
+2025-09-06 22:16:32  INFO     Enabled module: pow
+2025-09-06 22:16:34  INFO     Started PoW worker process [0868643a-098e-48e7-afdc-a2f67ac833f3]
+2025-09-06 22:16:34  INFO     Restored 3 sessions from database.
+2025-09-06 22:16:34  INFO     Faucet initialization complete.
+2025-09-06 22:16:45  INFO     Session 7f961179-b79e-4943-9dd9-3c928d91e164 failed: [CONCURRENCY_LIMIT] Only 3 concurrent sessions allowed per IP
+2025-09-06 22:17:03  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:17:04  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:17:04  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:17:04  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:17:04  INFO     Enabled module: captcha
+2025-09-06 22:17:04  INFO     Enabled module: ensname
+2025-09-06 22:17:04  INFO     Enabled module: ipinfo
+2025-09-06 22:17:04  INFO     Enabled module: ethinfo
+2025-09-06 22:17:04  INFO     Enabled module: faucet-balance
+2025-09-06 22:17:04  INFO     Enabled module: faucet-outflow
+2025-09-06 22:17:04  INFO     Enabled module: recurring-limits
+2025-09-06 22:17:04  INFO     Enabled module: concurrency-limit
+2025-09-06 22:17:04  INFO     Enabled module: pow
+2025-09-06 22:17:05  INFO     Started PoW worker process [ebadf962-8299-4b40-97f4-2407735f536f]
+2025-09-06 22:17:05  INFO     Restored 3 sessions from database.
+2025-09-06 22:17:05  INFO     Faucet initialization complete.
+2025-09-06 22:17:24  INFO     Session c224b827-c3b4-440b-999d-a52fced586c6 failed: [CONCURRENCY_LIMIT] Only 3 concurrent sessions allowed per IP
+2025-09-06 22:18:00  INFO     Faucet Process                                     Stats: CPU: 2.52%,  Memory: 26.95 MB/29.08 MB,   Event Loop Lag:  0.13ms
+2025-09-06 22:18:00  INFO     PoW server [ebadf962-8299-4b40-97f4-2407735f536f]  Stats: CPU: 1.32%,  Memory: 23.44 MB/26.38 MB,   Event Loop Lag:  0.15ms, Sessions: 0/3
+2025-09-06 22:18:00  INFO     # Received SIGINT signal - shutdown faucet
+2025-09-06 22:18:14  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:18:15  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:18:15  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:18:15  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:18:15  INFO     Enabled module: captcha
+2025-09-06 22:18:15  INFO     Enabled module: ensname
+2025-09-06 22:18:15  INFO     Enabled module: ethinfo
+2025-09-06 22:18:15  INFO     Enabled module: faucet-balance
+2025-09-06 22:18:15  INFO     Enabled module: faucet-outflow
+2025-09-06 22:18:15  INFO     Enabled module: recurring-limits
+2025-09-06 22:18:15  INFO     Enabled module: pow
+2025-09-06 22:18:16  INFO     Started PoW worker process [7dd21fd2-e9ae-4b37-9142-b477ccc3d43b]
+2025-09-06 22:18:16  INFO     Restored 3 sessions from database.
+2025-09-06 22:18:16  INFO     Faucet initialization complete.
+2025-09-06 22:18:28  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: 50072d6a-197f-4d0b-9928-e9e4dbf9d557)
+2025-09-06 22:19:00  INFO     Faucet Process                                     Stats: CPU: 3.15%,  Memory: 26.39 MB/30.08 MB,   Event Loop Lag:  0.13ms
+2025-09-06 22:19:00  INFO     PoW server [7dd21fd2-e9ae-4b37-9142-b477ccc3d43b]  Stats: CPU: 3.57%,  Memory: 24.34 MB/25.88 MB,   Event Loop Lag:  4.87ms, Sessions: 1/4
+2025-09-06 22:20:00  INFO     # STATS # clients: 1, sessions: 4 (575 H/s, 3 idle), shares: 82 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 22:20:00  INFO     Faucet Process                                     Stats: CPU: 0.05%,  Memory: 26.29 MB/29.08 MB,   Event Loop Lag:  0.18ms
+2025-09-06 22:20:00  INFO     PoW server [7dd21fd2-e9ae-4b37-9142-b477ccc3d43b]  Stats: CPU: 1.98%,  Memory: 24.34 MB/26.88 MB,   Event Loop Lag:  0.17ms, Sessions: 1/4
+2025-09-06 22:20:06  INFO     # Received SIGINT signal - shutdown faucet
+2025-09-06 22:20:14  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 22:20:14  INFO     Current FaucetStore schema version: 1
+2025-09-06 22:20:14  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 22:20:15  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.32 RiseETH  [Nonce: 1]
+2025-09-06 22:20:15  INFO     Enabled module: captcha
+2025-09-06 22:20:15  INFO     Enabled module: ensname
+2025-09-06 22:20:15  INFO     Enabled module: ethinfo
+2025-09-06 22:20:15  INFO     Enabled module: faucet-balance
+2025-09-06 22:20:15  INFO     Enabled module: faucet-outflow
+2025-09-06 22:20:15  INFO     Enabled module: recurring-limits
+2025-09-06 22:20:15  INFO     Enabled module: pow
+2025-09-06 22:20:15  INFO     Started PoW worker process [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]
+2025-09-06 22:20:15  INFO     Restored 4 sessions from database.
+2025-09-06 22:20:15  INFO     Faucet initialization complete.
+2025-09-06 22:20:20  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: a6749ee9-b455-4cd5-b494-71671f2c1b54)
+2025-09-06 22:21:00  INFO     Faucet Process                                     Stats: CPU: 3.20%,  Memory: 26.74 MB/29.58 MB,   Event Loop Lag:  7.42ms
+2025-09-06 22:21:00  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 11.63%, Memory: 23.98 MB/26.38 MB,   Event Loop Lag:  0.45ms, Sessions: 1/5
+2025-09-06 22:22:00  INFO     Faucet Process                                     Stats: CPU: 0.26%,  Memory: 26.70 MB/29.58 MB,   Event Loop Lag:  0.09ms
+2025-09-06 22:22:00  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 21.10%, Memory: 24.31 MB/26.38 MB,   Event Loop Lag:  3.43ms, Sessions: 1/5
+2025-09-06 22:22:16  INFO     session client closed: a6749ee9-b455-4cd5-b494-71671f2c1b54 () 0.01 RiseETH
+2025-09-06 22:22:16  INFO     Session a6749ee9-b455-4cd5-b494-71671f2c1b54 is claimable
+2025-09-06 22:22:20  INFO     Submitted claim transaction a6749ee9-b455-4cd5-b494-71671f2c1b54 [0.01 RiseETH] to: 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F: 0xa1d42dd5a9a9e20fdc64618e1ec5be9a9a3789bca592d2325cf7f4a042ac23dc
+2025-09-06 22:23:52  INFO     Faucet Process                                     Stats: CPU: 0.14%,  Memory: 28.28 MB/33.83 MB,   Event Loop Lag:  0.14ms
+2025-09-06 22:24:00  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 2.53%,  Memory: 24.63 MB/26.38 MB,   Event Loop Lag:  0.06ms, Sessions: 0/4
+2025-09-06 22:25:40  INFO     Faucet Process                                     Stats: CPU: 0.01%,  Memory: 28.33 MB/33.83 MB,   Event Loop Lag:  0.24ms
+2025-09-06 22:26:00  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.63 MB/26.38 MB,   Event Loop Lag:  0.12ms, Sessions: 0/4
+2025-09-06 22:27:26  INFO     Faucet Process                                     Stats: CPU: 0.01%,  Memory: 28.39 MB/33.83 MB,   Event Loop Lag:  0.13ms
+2025-09-06 22:28:00  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.64 MB/26.38 MB,   Event Loop Lag:  0.14ms, Sessions: 0/4
+2025-09-06 22:29:14  INFO     Faucet Process                                     Stats: CPU: 0.01%,  Memory: 28.45 MB/33.83 MB,   Event Loop Lag:  0.26ms
+2025-09-06 22:31:00  INFO     # STATS # clients: 0, sessions: 4 (572 H/s, 4 idle), shares: 903 (0.01 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 1 (0.01 RiseETH)
+2025-09-06 22:31:00  INFO     Faucet Process                                     Stats: CPU: 0.05%,  Memory: 28.73 MB/34.08 MB,   Event Loop Lag:  0.31ms
+2025-09-06 22:31:00  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 22:31:00  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.64 MB/26.38 MB,   Event Loop Lag:  0.09ms, Sessions: 0/4
+2025-09-06 22:31:12  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.309 RiseETH  [Nonce: 2]
+2025-09-06 22:32:48  INFO     Faucet Process                                     Stats: CPU: 0.04%,  Memory: 29.36 MB/34.08 MB,   Event Loop Lag:  0.24ms
+2025-09-06 22:33:00  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.64 MB/26.38 MB,   Event Loop Lag:  0.12ms, Sessions: 0/4
+2025-09-06 22:34:34  INFO     Faucet Process                                     Stats: CPU: 0.01%,  Memory: 29.41 MB/34.08 MB,   Event Loop Lag:  0.25ms
+2025-09-06 22:35:00  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.66 MB/26.38 MB,   Event Loop Lag:  0.06ms, Sessions: 0/4
+2025-09-06 22:36:22  INFO     Faucet Process                                     Stats: CPU: 0.01%,  Memory: 29.48 MB/34.08 MB,   Event Loop Lag:  0.31ms
+2025-09-06 22:37:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.66 MB/26.38 MB,   Event Loop Lag:  0.48ms, Sessions: 0/4
+2025-09-06 22:38:08  INFO     Faucet Process                                     Stats: CPU: 0.01%,  Memory: 29.54 MB/34.08 MB,   Event Loop Lag:  0.16ms
+2025-09-06 22:39:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.67 MB/26.38 MB,   Event Loop Lag:  0.14ms, Sessions: 0/4
+2025-09-06 22:39:08  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 29.59 MB/34.08 MB,   Event Loop Lag:  0.28ms
+2025-09-06 22:40:00  INFO     # STATS # clients: 0, sessions: 4 (572 H/s, 4 idle), shares: 0 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 22:40:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.68 MB/26.38 MB,   Event Loop Lag:  0.06ms, Sessions: 0/4
+2025-09-06 22:40:08  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 29.66 MB/34.08 MB,   Event Loop Lag:  0.19ms
+2025-09-06 22:41:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.68 MB/26.38 MB,   Event Loop Lag:  0.10ms, Sessions: 0/4
+2025-09-06 22:41:08  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 29.72 MB/34.08 MB,   Event Loop Lag:  0.20ms
+2025-09-06 22:41:15  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.309 RiseETH  [Nonce: 2]
+2025-09-06 22:42:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.68 MB/26.38 MB,   Event Loop Lag:  0.09ms, Sessions: 0/4
+2025-09-06 22:42:08  INFO     Faucet Process                                     Stats: CPU: 0.06%,  Memory: 28.97 MB/31.83 MB,   Event Loop Lag:  0.13ms
+2025-09-06 22:43:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.69 MB/26.38 MB,   Event Loop Lag:  0.10ms, Sessions: 0/4
+2025-09-06 22:43:08  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 29.03 MB/31.83 MB,   Event Loop Lag:  0.24ms
+2025-09-06 22:44:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.69 MB/26.38 MB,   Event Loop Lag:  0.05ms, Sessions: 0/4
+2025-09-06 22:44:08  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 29.09 MB/31.83 MB,   Event Loop Lag:  0.11ms
+2025-09-06 22:45:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.70 MB/26.38 MB,   Event Loop Lag:  0.08ms, Sessions: 0/4
+2025-09-06 22:45:08  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 29.15 MB/31.83 MB,   Event Loop Lag:  0.24ms
+2025-09-06 22:46:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.70 MB/26.38 MB,   Event Loop Lag:  0.10ms, Sessions: 0/4
+2025-09-06 22:46:08  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 29.21 MB/31.83 MB,   Event Loop Lag:  0.14ms
+2025-09-06 22:47:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.70 MB/26.38 MB,   Event Loop Lag:  0.06ms, Sessions: 0/4
+2025-09-06 22:47:08  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 29.26 MB/31.83 MB,   Event Loop Lag:  0.17ms
+2025-09-06 22:48:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.71 MB/26.38 MB,   Event Loop Lag:  0.10ms, Sessions: 0/4
+2025-09-06 22:48:08  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 29.33 MB/31.83 MB,   Event Loop Lag:  0.14ms
+2025-09-06 22:49:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.71 MB/26.38 MB,   Event Loop Lag:  0.10ms, Sessions: 0/4
+2025-09-06 22:49:08  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 29.38 MB/31.83 MB,   Event Loop Lag:  0.24ms
+2025-09-06 22:50:00  INFO     # STATS # clients: 0, sessions: 4 (572 H/s, 4 idle), shares: 0 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 22:50:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.72 MB/26.38 MB,   Event Loop Lag:  0.08ms, Sessions: 0/4
+2025-09-06 22:50:08  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 29.45 MB/31.83 MB,   Event Loop Lag:  0.13ms
+2025-09-06 22:50:15  INFO     session idle timeout: df0fdb34-83ad-4c8d-9b29-f93d093e95c8 () 0 RiseETH
+2025-09-06 22:50:15  INFO     Session df0fdb34-83ad-4c8d-9b29-f93d093e95c8 failed: [AMOUNT_TOO_LOW] drop amount lower than minimum
+2025-09-06 22:50:15  INFO     session idle timeout: 0bd560f5-cc85-4ae2-a1aa-8a32ad186bd3 () 0 RiseETH
+2025-09-06 22:50:15  INFO     Session 0bd560f5-cc85-4ae2-a1aa-8a32ad186bd3 failed: [AMOUNT_TOO_LOW] drop amount lower than minimum
+2025-09-06 22:50:15  INFO     session idle timeout: cc3ca102-3656-4a8b-ba12-96067ac75808 () 0 RiseETH
+2025-09-06 22:50:15  INFO     Session cc3ca102-3656-4a8b-ba12-96067ac75808 failed: [AMOUNT_TOO_LOW] drop amount lower than minimum
+2025-09-06 22:50:15  INFO     session idle timeout: 50072d6a-197f-4d0b-9928-e9e4dbf9d557 () 0.001 RiseETH
+2025-09-06 22:50:15  INFO     Session 50072d6a-197f-4d0b-9928-e9e4dbf9d557 failed: [AMOUNT_TOO_LOW] drop amount lower than minimum
+2025-09-06 22:51:01  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.74 MB/26.38 MB,   Event Loop Lag:  0.08ms, Sessions: 0/0
+2025-09-06 22:51:08  INFO     Faucet Process                                     Stats: CPU: 0.05%,  Memory: 29.60 MB/31.83 MB,   Event Loop Lag:  0.21ms
+2025-09-06 22:51:16  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.309 RiseETH  [Nonce: 2]
+2025-09-06 23:07:18  INFO     # STATS # clients: 0, sessions: 0 (0 H/s, 0 idle), shares: 0 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 23:07:18  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 23:07:18  INFO     Faucet Process                                     Stats: CPU: 0.00%,  Memory: 29.35 MB/31.83 MB,   Event Loop Lag:  1.64ms
+2025-09-06 23:07:30  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 23:07:42  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 23:07:54  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.75 MB/26.38 MB,   Event Loop Lag:  0.12ms, Sessions: 0/0
+2025-09-06 23:07:54  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 23:08:05  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 23:08:17  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 23:08:18  INFO     Faucet Process                                     Stats: CPU: 0.11%,  Memory: 29.39 MB/32.83 MB,   Event Loop Lag:  0.19ms
+2025-09-06 23:08:29  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 23:08:41  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 23:08:53  ERROR    Error loading wallet state for 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446: FetchError: request to https://testnet.riselabs.xyz/ failed, reason: getaddrinfo ENOTFOUND testnet.riselabs.xyz
+2025-09-06 23:08:55  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.75 MB/26.38 MB,   Event Loop Lag:  0.10ms, Sessions: 0/0
+2025-09-06 23:09:07  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.325 RiseETH  [Nonce: 2]
+2025-09-06 23:09:18  INFO     Faucet Process                                     Stats: CPU: 0.10%,  Memory: 29.88 MB/32.08 MB,   Event Loop Lag:  0.12ms
+2025-09-06 23:09:55  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.75 MB/26.38 MB,   Event Loop Lag:  0.20ms, Sessions: 0/0
+2025-09-06 23:10:00  INFO     # STATS # clients: 0, sessions: 0 (0 H/s, 0 idle), shares: 0 (0 RiseETH), verify: 0 (reward: 0 RiseETH, missed: 0 / -0 RiseETH), claims: 0 (0 RiseETH)
+2025-09-06 23:10:18  INFO     Faucet Process                                     Stats: CPU: 0.07%,  Memory: 29.94 MB/32.08 MB,   Event Loop Lag:  0.29ms
+2025-09-06 23:10:55  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.76 MB/26.38 MB,   Event Loop Lag:  0.06ms, Sessions: 0/0
+2025-09-06 23:11:18  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 30.00 MB/32.08 MB,   Event Loop Lag:  0.12ms
+2025-09-06 23:11:55  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 0.00%,  Memory: 24.76 MB/26.38 MB,   Event Loop Lag:  0.10ms, Sessions: 0/0
+2025-09-06 23:12:04  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: 709f1c2d-c297-4543-90e7-3a35455702e4)
+2025-09-06 23:12:18  INFO     Faucet Process                                     Stats: CPU: 0.15%,  Memory: 30.20 MB/32.33 MB,   Event Loop Lag:  0.16ms
+2025-09-06 23:12:55  INFO     PoW server [a7d98f62-b6a3-439c-ad20-fd4a370f3e70]  Stats: CPU: 15.15%, Memory: 24.53 MB/26.38 MB,   Event Loop Lag:  9.16ms, Sessions: 1/1
+2025-09-06 23:13:11  INFO     # Received SIGTERM signal - shutdown faucet
+2025-09-06 23:13:33  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 23:13:34  INFO     Current FaucetStore schema version: 1
+2025-09-06 23:13:34  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 23:13:34  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.325 ETH  [Nonce: 2]
+2025-09-06 23:13:34  INFO     Enabled module: captcha
+2025-09-06 23:13:34  INFO     Enabled module: ensname
+2025-09-06 23:13:34  INFO     Enabled module: ethinfo
+2025-09-06 23:13:34  INFO     Enabled module: faucet-balance
+2025-09-06 23:13:34  INFO     Enabled module: faucet-outflow
+2025-09-06 23:13:34  INFO     Enabled module: recurring-limits
+2025-09-06 23:13:34  INFO     Enabled module: pow
+2025-09-06 23:13:35  INFO     Started PoW worker process [222c1626-7f98-4f01-be74-5c57b0d96d08]
+2025-09-06 23:13:35  INFO     Restored 1 sessions from database.
+2025-09-06 23:13:35  INFO     Faucet initialization complete.
+2025-09-06 23:13:39  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 23:13:40  INFO     Current FaucetStore schema version: 1
+2025-09-06 23:13:40  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 23:13:40  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.325 ETH  [Nonce: 2]
+2025-09-06 23:13:40  INFO     Enabled module: captcha
+2025-09-06 23:13:40  INFO     Enabled module: ensname
+2025-09-06 23:13:40  INFO     Enabled module: ethinfo
+2025-09-06 23:13:40  INFO     Enabled module: faucet-balance
+2025-09-06 23:13:40  INFO     Enabled module: faucet-outflow
+2025-09-06 23:13:40  INFO     Enabled module: recurring-limits
+2025-09-06 23:13:40  INFO     Enabled module: pow
+2025-09-06 23:13:40  INFO     Started PoW worker process [bd8054ca-7ad8-4d64-bd12-9bbb5a715c8a]
+2025-09-06 23:13:40  INFO     Restored 1 sessions from database.
+2025-09-06 23:13:40  INFO     Faucet initialization complete.
+2025-09-06 23:13:40  ERROR    ### Caught unhandled exception: Error: listen EADDRINUSE: address already in use :::8080
+  Exception origin: uncaughtException
+  Stack Trace: Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at FaucetHttpServer.initialize (file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/webserv/FaucetHttpServer.js:38:25)
+    at file:///Users/cemayyildiz/Downloads/PoWFaucet-master/dist/app.js:53:53
+
+2025-09-06 23:14:06  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master, InternalBasePath: /Users/cemayyildiz/Downloads/PoWFaucet-master)
+2025-09-06 23:14:07  INFO     Current FaucetStore schema version: 1
+2025-09-06 23:14:07  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-06 23:14:08  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.325 ETH  [Nonce: 2]
+2025-09-06 23:14:08  INFO     Enabled module: captcha
+2025-09-06 23:14:08  INFO     Enabled module: ensname
+2025-09-06 23:14:08  INFO     Enabled module: ethinfo
+2025-09-06 23:14:08  INFO     Enabled module: faucet-balance
+2025-09-06 23:14:08  INFO     Enabled module: faucet-outflow
+2025-09-06 23:14:08  INFO     Enabled module: recurring-limits
+2025-09-06 23:14:08  INFO     Enabled module: pow
+2025-09-06 23:14:08  INFO     Started PoW worker process [38c49ced-0233-441d-b25d-ce9033c587b6]
+2025-09-06 23:14:08  INFO     Restored 1 sessions from database.
+2025-09-06 23:14:08  INFO     Faucet initialization complete.
+2025-09-06 23:15:00  INFO     Faucet Process                                     Stats: CPU: 3.52%,  Memory: 26.60 MB/28.58 MB,   Event Loop Lag:  0.15ms
+2025-09-06 23:15:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 16.02%, Memory: 23.87 MB/26.63 MB,   Event Loop Lag:  0.29ms, Sessions: 1/1
+2025-09-06 23:16:00  INFO     Faucet Process                                     Stats: CPU: 0.27%,  Memory: 26.37 MB/28.58 MB,   Event Loop Lag: 19.92ms
+2025-09-06 23:16:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 20.03%, Memory: 24.58 MB/26.63 MB,   Event Loop Lag:  0.39ms, Sessions: 1/1
+2025-09-06 23:17:00  INFO     Faucet Process                                     Stats: CPU: 0.25%,  Memory: 26.59 MB/28.58 MB,   Event Loop Lag:  0.32ms
+2025-09-06 23:17:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 18.06%, Memory: 24.66 MB/26.88 MB,   Event Loop Lag:  6.69ms, Sessions: 1/1
+2025-09-06 23:18:00  INFO     Faucet Process                                     Stats: CPU: 0.21%,  Memory: 26.13 MB/28.58 MB,   Event Loop Lag:  0.59ms
+2025-09-06 23:18:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 16.40%, Memory: 24.37 MB/26.88 MB,   Event Loop Lag:  0.15ms, Sessions: 1/1
+2025-09-06 23:19:00  INFO     Faucet Process                                     Stats: CPU: 0.17%,  Memory: 26.35 MB/28.58 MB,   Event Loop Lag:  0.98ms
+2025-09-06 23:19:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 10.80%, Memory: 24.32 MB/26.88 MB,   Event Loop Lag:  0.80ms, Sessions: 1/1
+2025-09-06 23:20:00  INFO     # STATS # clients: 1, sessions: 1 (70 H/s, 0 idle), shares: 2177 (0.025 ETH), verify: 0 (reward: 0 ETH, missed: 0 / -0 ETH), claims: 0 (0 ETH)
+2025-09-06 23:20:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 6.71%,  Memory: 24.64 MB/26.88 MB,   Event Loop Lag:  0.45ms, Sessions: 1/1
+2025-09-06 23:20:00  INFO     Faucet Process                                     Stats: CPU: 0.11%,  Memory: 26.70 MB/28.58 MB,   Event Loop Lag:  0.10ms
+2025-09-06 23:21:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 15.55%, Memory: 24.84 MB/26.88 MB,   Event Loop Lag:  0.08ms, Sessions: 1/1
+2025-09-06 23:21:00  INFO     Faucet Process                                     Stats: CPU: 0.24%,  Memory: 26.20 MB/28.58 MB,   Event Loop Lag:  7.70ms
+2025-09-06 23:22:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 16.87%, Memory: 24.69 MB/26.88 MB,   Event Loop Lag:  1.13ms, Sessions: 1/1
+2025-09-06 23:22:00  INFO     Faucet Process                                     Stats: CPU: 0.30%,  Memory: 26.59 MB/28.58 MB,   Event Loop Lag: 26.03ms
+2025-09-06 23:23:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 17.46%, Memory: 25.16 MB/26.88 MB,   Event Loop Lag: 61.26ms, Sessions: 1/1
+2025-09-06 23:23:00  INFO     Faucet Process                                     Stats: CPU: 0.27%,  Memory: 26.69 MB/28.58 MB,   Event Loop Lag: 34.79ms
+2025-09-06 23:24:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 19.21%, Memory: 25.01 MB/26.88 MB,   Event Loop Lag:  0.09ms, Sessions: 1/1
+2025-09-06 23:24:00  INFO     Faucet Process                                     Stats: CPU: 0.23%,  Memory: 26.85 MB/28.58 MB,   Event Loop Lag:  0.31ms
+2025-09-06 23:24:10  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.325 ETH  [Nonce: 2]
+2025-09-06 23:25:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 17.92%, Memory: 25.02 MB/26.88 MB,   Event Loop Lag:  0.19ms, Sessions: 1/1
+2025-09-06 23:25:00  INFO     Faucet Process                                     Stats: CPU: 0.31%,  Memory: 27.27 MB/28.83 MB,   Event Loop Lag:  0.42ms
+2025-09-06 23:26:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 19.11%, Memory: 25.15 MB/26.88 MB,   Event Loop Lag:  0.07ms, Sessions: 1/1
+2025-09-06 23:26:00  INFO     Faucet Process                                     Stats: CPU: 0.17%,  Memory: 27.05 MB/28.83 MB,   Event Loop Lag:  0.52ms
+2025-09-06 23:27:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 20.29%, Memory: 25.23 MB/26.88 MB,   Event Loop Lag:  0.29ms, Sessions: 1/1
+2025-09-06 23:27:00  INFO     Faucet Process                                     Stats: CPU: 0.19%,  Memory: 26.58 MB/28.83 MB,   Event Loop Lag:  4.41ms
+2025-09-06 23:28:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 19.84%, Memory: 24.81 MB/26.88 MB,   Event Loop Lag:  2.65ms, Sessions: 1/1
+2025-09-06 23:28:00  INFO     Faucet Process                                     Stats: CPU: 0.18%,  Memory: 27.26 MB/28.83 MB,   Event Loop Lag:  1.32ms
+2025-09-06 23:29:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 17.34%, Memory: 25.28 MB/27.13 MB,   Event Loop Lag:  0.05ms, Sessions: 0/1
+2025-09-06 23:29:00  INFO     Faucet Process                                     Stats: CPU: 0.17%,  Memory: 26.75 MB/28.83 MB,   Event Loop Lag:  0.05ms
+2025-09-06 23:30:00  INFO     # STATS # clients: 0, sessions: 1 (261 H/s, 1 idle), shares: 4471 (0.05 ETH), verify: 0 (reward: 0 ETH, missed: 0 / -0 ETH), claims: 0 (0 ETH)
+2025-09-06 23:30:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.28 MB/27.13 MB,   Event Loop Lag:  0.07ms, Sessions: 0/1
+2025-09-06 23:30:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.81 MB/28.83 MB,   Event Loop Lag:  0.09ms
+2025-09-06 23:31:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.29 MB/27.13 MB,   Event Loop Lag:  0.09ms, Sessions: 0/1
+2025-09-06 23:31:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.88 MB/28.83 MB,   Event Loop Lag:  0.10ms
+2025-09-06 23:32:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.29 MB/27.13 MB,   Event Loop Lag:  0.09ms, Sessions: 0/1
+2025-09-06 23:32:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.94 MB/28.83 MB,   Event Loop Lag:  0.09ms
+2025-09-06 23:33:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.29 MB/27.13 MB,   Event Loop Lag:  0.10ms, Sessions: 0/1
+2025-09-06 23:33:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 27.00 MB/28.83 MB,   Event Loop Lag:  0.10ms
+2025-09-06 23:34:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.30 MB/27.13 MB,   Event Loop Lag:  0.09ms, Sessions: 0/1
+2025-09-06 23:34:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 27.05 MB/28.83 MB,   Event Loop Lag:  0.10ms
+2025-09-06 23:34:11  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.325 ETH  [Nonce: 2]
+2025-09-06 23:35:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.30 MB/27.13 MB,   Event Loop Lag:  0.09ms, Sessions: 0/1
+2025-09-06 23:35:00  INFO     Faucet Process                                     Stats: CPU: 0.06%,  Memory: 26.75 MB/29.08 MB,   Event Loop Lag:  0.04ms
+2025-09-06 23:36:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.30 MB/27.13 MB,   Event Loop Lag:  0.04ms, Sessions: 0/1
+2025-09-06 23:36:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.81 MB/29.08 MB,   Event Loop Lag:  0.10ms
+2025-09-06 23:37:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.31 MB/27.13 MB,   Event Loop Lag:  0.10ms, Sessions: 0/1
+2025-09-06 23:37:00  INFO     Faucet Process                                     Stats: CPU: 0.03%,  Memory: 26.87 MB/29.08 MB,   Event Loop Lag:  0.12ms
+2025-09-06 23:38:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.31 MB/27.13 MB,   Event Loop Lag:  0.08ms, Sessions: 0/1
+2025-09-06 23:38:00  INFO     Faucet Process                                     Stats: CPU: 0.02%,  Memory: 26.93 MB/29.08 MB,   Event Loop Lag:  0.06ms
+2025-09-06 23:39:00  INFO     PoW server [38c49ced-0233-441d-b25d-ce9033c587b6]  Stats: CPU: 0.00%,  Memory: 25.31 MB/27.13 MB,   Event Loop Lag:  0.29ms, Sessions: 0/1
+2025-09-06 23:39:00  INFO     Faucet Process                                     Stats: CPU: 0.05%,  Memory: 26.99 MB/29.08 MB,   Event Loop Lag:  0.06ms
+2025-09-07 00:53:22  INFO     Initializing PoWFaucet v2.4.2 (AppBasePath: /Users/cemayyildiz/projects/orvium, InternalBasePath: /Users/cemayyildiz/projects/orvium)
+2025-09-07 00:53:23  INFO     Current FaucetStore schema version: 1
+2025-09-07 00:53:23  INFO     Web3 ChainCommon initialized with chainId 11155931
+2025-09-07 00:53:23  INFO     Wallet 0xB71Bc49A7904AA3FD857ef328490C70f1b2d6446:  1.337 ETH  [Nonce: 2]
+2025-09-07 00:53:23  INFO     Enabled module: captcha
+2025-09-07 00:53:23  INFO     Enabled module: ensname
+2025-09-07 00:53:23  INFO     Enabled module: ethinfo
+2025-09-07 00:53:23  INFO     Enabled module: faucet-balance
+2025-09-07 00:53:23  INFO     Enabled module: faucet-outflow
+2025-09-07 00:53:23  INFO     Enabled module: recurring-limits
+2025-09-07 00:53:23  INFO     Enabled module: pow
+2025-09-07 00:53:24  INFO     Started PoW worker process [88efabf7-06e3-4636-82c3-80382f57f344]
+2025-09-07 00:53:24  INFO     Restored 1 sessions from database.
+2025-09-07 00:53:24  INFO     Faucet initialization complete.
+2025-09-07 00:53:55  INFO     Session 14133bbe-15f6-42f7-8fb0-0e7ea24b5686 failed: [INVALID_ADDR] Invalid target address: 
+2025-09-07 00:54:00  INFO     Faucet Process                                     Stats: CPU: 3.69%,  Memory: 26.57 MB/28.58 MB,   Event Loop Lag:  0.29ms
+2025-09-07 00:54:00  INFO     PoW server [88efabf7-06e3-4636-82c3-80382f57f344]  Stats: CPU: 2.15%,  Memory: 23.40 MB/25.63 MB,   Event Loop Lag:  0.41ms, Sessions: 0/1
+2025-09-07 00:54:05  INFO     Session ca80580c-5068-4f9d-bd00-ce0cf505a176 failed: [INVALID_ADDR] Invalid target address: 
+2025-09-07 00:54:06  INFO     Session e9dd6683-0fba-4f68-9a67-b7c99472b763 failed: [INVALID_ADDR] Invalid target address: 
+2025-09-07 00:54:24  INFO     New session for 0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F (IP: ::1, ID: d2d3c6f0-be5c-4d09-aa91-5cd4b6b6f829)
+2025-09-07 00:55:00  INFO     Faucet Process                                     Stats: CPU: 0.23%,  Memory: 26.76 MB/28.83 MB,   Event Loop Lag:  0.91ms
+2025-09-07 00:55:00  INFO     PoW server [88efabf7-06e3-4636-82c3-80382f57f344]  Stats: CPU: 10.67%, Memory: 24.28 MB/25.63 MB,   Event Loop Lag:  0.82ms, Sessions: 1/2
+2025-09-07 00:56:00  INFO     Faucet Process                                     Stats: CPU: 0.26%,  Memory: 26.99 MB/28.83 MB,   Event Loop Lag:  1.85ms
+2025-09-07 00:56:00  INFO     PoW server [88efabf7-06e3-4636-82c3-80382f57f344]  Stats: CPU: 18.98%, Memory: 24.49 MB/26.13 MB,   Event Loop Lag: 13.03ms, Sessions: 1/2
+2025-09-07 00:57:00  INFO     Faucet Process                                     Stats: CPU: 0.19%,  Memory: 26.95 MB/29.08 MB,   Event Loop Lag: 31.07ms
+2025-09-07 00:57:00  INFO     PoW server [88efabf7-06e3-4636-82c3-80382f57f344]  Stats: CPU: 10.10%, Memory: 24.61 MB/26.13 MB,   Event Loop Lag:  0.10ms, Sessions: 1/2
+2025-09-07 00:58:00  INFO     Faucet Process                                     Stats: CPU: 0.13%,  Memory: 26.67 MB/29.08 MB,   Event Loop Lag:  0.35ms
+2025-09-07 00:58:00  INFO     PoW server [88efabf7-06e3-4636-82c3-80382f57f344]  Stats: CPU: 7.93%,  Memory: 24.47 MB/26.13 MB,   Event Loop Lag: 93.00ms, Sessions: 1/2
+2025-09-07 00:59:00  INFO     Faucet Process                                     Stats: CPU: 0.11%,  Memory: 27.19 MB/29.08 MB,   Event Loop Lag:  0.08ms
+2025-09-07 00:59:00  INFO     PoW server [88efabf7-06e3-4636-82c3-80382f57f344]  Stats: CPU: 7.95%,  Memory: 24.34 MB/26.38 MB,   Event Loop Lag:  0.94ms, Sessions: 1/2
+2025-09-07 01:00:00  INFO     # STATS # clients: 1, sessions: 2 (370 H/s, 1 idle), shares: 1741 (0.019 ETH), verify: 0 (reward: 0 ETH, missed: 0 / -0 ETH), claims: 0 (0 ETH)
+2025-09-07 01:00:00  INFO     Faucet Process                                     Stats: CPU: 0.10%,  Memory: 27.14 MB/29.08 MB,   Event Loop Lag:  0.07ms
+2025-09-07 01:00:00  INFO     PoW server [88efabf7-06e3-4636-82c3-80382f57f344]  Stats: CPU: 8.09%,  Memory: 24.44 MB/26.38 MB,   Event Loop Lag:  6.09ms, Sessions: 1/2
+2025-09-07 01:01:00  INFO     Faucet Process                                     Stats: CPU: 0.10%,  Memory: 26.94 MB/29.33 MB,   Event Loop Lag:  0.42ms
+2025-09-07 01:01:00  INFO     PoW server [88efabf7-06e3-4636-82c3-80382f57f344]  Stats: CPU: 7.62%,  Memory: 24.29 MB/26.38 MB,   Event Loop Lag:  0.84ms, Sessions: 1/2

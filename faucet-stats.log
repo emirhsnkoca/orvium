@@ -1,0 +1,17 @@
+STATS 1757181600 {"cliCnt":0,"sessCnt":0,"sessIdl":0,"hashRate":0,"shareCnt":0,"shareVal":"0","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757182200 {"cliCnt":0,"sessCnt":0,"sessIdl":0,"hashRate":0,"shareCnt":10,"shareVal":"0","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757182800 {"cliCnt":0,"sessCnt":0,"sessIdl":0,"hashRate":0,"shareCnt":3,"shareVal":"0","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757184600 {"cliCnt":0,"sessCnt":1,"sessIdl":1,"hashRate":208,"shareCnt":44,"shareVal":"8800000000000","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757185200 {"cliCnt":0,"sessCnt":1,"sessIdl":1,"hashRate":208,"shareCnt":0,"shareVal":"0","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757185800 {"cliCnt":1,"sessCnt":2,"sessIdl":1,"hashRate":293,"shareCnt":6,"shareVal":"14160000000000","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757186400 {"cliCnt":1,"sessCnt":4,"sessIdl":3,"hashRate":575,"shareCnt":82,"shareVal":"967600000000000","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+SESS 1757186536 {"st":1757186419,"ip":"::1","to":"0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F","val":"10589800000000000","hr":268,"no":25959,"loc":null,"id":"a6749ee9-b455-4cd5-b494-71671f2c1b54","ps":0,"pf":1}
+CLAIM 1757186540 {"to":"0x0C528A0B07a2194F8881Fb516598dEb4b72B6d7F","val":"10589800000000000","sess":"a6749ee9-b455-4cd5-b494-71671f2c1b54"}
+STATS 1757187060 {"cliCnt":0,"sessCnt":4,"sessIdl":4,"hashRate":572,"shareCnt":903,"shareVal":"10589800000000000","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":1,"claimVal":"10589800000000000","slashCnt":0}
+STATS 1757187600 {"cliCnt":0,"sessCnt":4,"sessIdl":4,"hashRate":572,"shareCnt":0,"shareVal":"0","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757188200 {"cliCnt":0,"sessCnt":4,"sessIdl":4,"hashRate":572,"shareCnt":0,"shareVal":"0","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757189238 {"cliCnt":0,"sessCnt":0,"sessIdl":0,"hashRate":0,"shareCnt":0,"shareVal":"0","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757189400 {"cliCnt":0,"sessCnt":0,"sessIdl":0,"hashRate":0,"shareCnt":0,"shareVal":"0","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757190000 {"cliCnt":1,"sessCnt":1,"sessIdl":0,"hashRate":70,"shareCnt":2177,"shareVal":"25458200000000000","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757190600 {"cliCnt":0,"sessCnt":1,"sessIdl":1,"hashRate":261,"shareCnt":4471,"shareVal":"50876000000000000","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}
+STATS 1757196000 {"cliCnt":1,"sessCnt":2,"sessIdl":1,"hashRate":370,"shareCnt":1741,"shareVal":"19442200000000000","vrfyCnt":0,"vrfyMisa":0,"vrfyVal":"0","vrfyPen":"0","claimCnt":0,"claimVal":"0","slashCnt":0}

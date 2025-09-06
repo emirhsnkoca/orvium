@@ -1,0 +1,1 @@
+{"version":3,"file":"ConcurrencyLimitConfig.js","sourceRoot":"","sources":["../../../src/modules/concurrency-limit/ConcurrencyLimitConfig.ts"],"names":[],"mappings":"AAUA,MAAM,CAAC,MAAM,aAAa,GAA4B;IACpD,OAAO,EAAE,KAAK;IACd,gBAAgB,EAAE,CAAC;IACnB,UAAU,EAAE,KAAK;IACjB,QAAQ,EAAE,KAAK;IACf,aAAa,EAAE,IAAI;IACnB,WAAW,EAAE,IAAI;CAClB,CAAA"}

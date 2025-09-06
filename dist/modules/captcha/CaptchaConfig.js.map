@@ -1,0 +1,1 @@
+{"version":3,"file":"CaptchaConfig.js","sourceRoot":"","sources":["../../../src/modules/captcha/CaptchaConfig.ts"],"names":[],"mappings":"AAUA,MAAM,CAAC,MAAM,aAAa,GAAmB;IAC3C,OAAO,EAAE,KAAK;IACd,QAAQ,EAAE,IAAI;IACd,OAAO,EAAE,IAAI;IACb,MAAM,EAAE,IAAI;IACZ,iBAAiB,EAAE,KAAK;IACxB,iBAAiB,EAAE,KAAK;CACzB,CAAA"}
