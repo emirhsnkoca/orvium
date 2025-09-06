@@ -57,6 +57,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* Custom animations */
 @keyframes float {
   0%, 100% {

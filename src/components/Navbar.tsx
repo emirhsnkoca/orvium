@@ -24,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({ onRaiseClick }) => {
           {/* Logo & Brand */}
           <div className="flex items-center space-x-4">
             <img src={orviumLogo} alt="Orvium Logo" className="w-14 h-14 drop-shadow-lg" />
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-[#8A2BE2] to-[#FF00FF] bg-clip-text text-transparent font-rajdhani animate-purple-pink-flow tracking-wide uppercase drop-shadow-2xl">
+            <h1 className="text-4xl font-black bg-gradient-to-r from-[#8A2BE2] to-[#FF00FF] bg-clip-text text-transparent font-orbitron animate-purple-pink-flow tracking-widest uppercase drop-shadow-2xl">
               ORVIUM
             </h1>
           </div>
@@ -32,14 +32,14 @@ const Navbar: React.FC<NavbarProps> = ({ onRaiseClick }) => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2">
             <div className="flex items-center space-x-12">
-              <a href="#" className="text-white hover:text-[#FF00FF] transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow">
-                Home
+              <a href="#" className="text-white hover:text-[#FF00FF] transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow uppercase">
+                HOME
               </a>
               <button
                 onClick={scrollToFeatures}
-                className="text-white hover:text-[#FF00FF] transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow"
+                className="text-white hover:text-[#FF00FF] transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow uppercase"
               >
-                Features
+                FEATURES
               </button>
             </div>
           </div>
@@ -48,9 +48,9 @@ const Navbar: React.FC<NavbarProps> = ({ onRaiseClick }) => {
           <div className="hidden md:block">
             <button
               onClick={onRaiseClick}
-              className="relative bg-gradient-to-r from-[#8A2BE2] to-[#FF00FF] hover:from-[#FF00FF] hover:to-[#8A2BE2] text-white px-8 py-3 rounded-xl font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-[#8A2BE2]/30 font-orbitron tracking-wide uppercase text-base border-2 border-[#8A2BE2]/40 hover:border-[#FF00FF]/80 backdrop-blur-sm"
+              className="relative bg-gradient-to-r from-[#8A2BE2] to-[#FF00FF] hover:from-[#FF00FF] hover:to-[#8A2BE2] text-white px-8 py-3 rounded-xl font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-[#8A2BE2]/30 font-orbitron tracking-wide uppercase text-base border-2 border-black hover:border-black backdrop-blur-sm"
             >
-              Rise AI
+              RISE AI
             </button>
           </div>
 
@@ -70,20 +70,20 @@ const Navbar: React.FC<NavbarProps> = ({ onRaiseClick }) => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-black/90 backdrop-blur-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#" className="block text-white hover:text-[#FF00FF] px-3 py-2 transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow">
-              Home
+            <a href="#" className="block text-white hover:text-[#FF00FF] px-3 py-2 transition-all duration-300 font-orbitron font-medium tracking-wide hover:animate-text-glow uppercase">
+              HOME
             </a>
             <button
               onClick={scrollToFeatures}
-              className="block text-white hover:text-[#FF00FF] px-3 py-2 transition-all duration-300 font-orbitron font-medium tracking-wide w-full text-left hover:animate-text-glow"
+              className="block text-white hover:text-[#FF00FF] px-3 py-2 transition-all duration-300 font-orbitron font-medium tracking-wide w-full text-left hover:animate-text-glow uppercase"
             >
-              Features
+              FEATURES
             </button>
             <button
               onClick={onRaiseClick}
-              className="block w-full text-left bg-gradient-to-r from-[#8A2BE2] to-[#FF00FF] hover:from-[#FF00FF] hover:to-[#8A2BE2] text-white px-3 py-2 rounded-xl font-bold transition-all duration-300 font-orbitron mx-3 my-2 tracking-wide uppercase border-2 border-[#8A2BE2]/40"
+              className="block w-full text-left bg-gradient-to-r from-[#8A2BE2] to-[#FF00FF] hover:from-[#FF00FF] hover:to-[#8A2BE2] text-white px-3 py-2 rounded-xl font-bold transition-all duration-300 font-orbitron mx-3 my-2 tracking-wide uppercase border-2 border-black"
             >
-              Rise AI
+              RISE AI
             </button>
           </div>
         </div>
