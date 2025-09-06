@@ -13,7 +13,7 @@ const FeaturesSection: React.FC = () => {
       link: "https://swap-transfer.vercel.app",
       gradient: "from-[#8A2BE2] to-[#BF40BF]",
       accentColor: "#8A2BE2",
-      image: "src/assets/images/swap-transfer.jpg"
+      image: "src/assets/images/swap.png"
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const FeaturesSection: React.FC = () => {
       link: "https://phishing-detector.vercel.app",
       gradient: "from-[#BF40BF] to-[#FF00FF]",
       accentColor: "#BF40BF",
-      image: "src/assets/images/security-guardian.jpg"
+      image: "src/assets/images/phising.png"
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const FeaturesSection: React.FC = () => {
       link: "https://pov-faucet.vercel.app",
       gradient: "from-[#FF00FF] to-[#EE82EE]",
       accentColor: "#FF00FF",
-      image: "src/assets/images/faucet-hub.jpg"
+      image: "src/assets/images/faucet.png"
     },
     {
       id: 4,
@@ -43,15 +43,15 @@ const FeaturesSection: React.FC = () => {
       link: "https://multisender-creator.vercel.app",
       gradient: "from-[#EE82EE] to-[#8A2BE2]",
       accentColor: "#EE82EE",
-      image: "src/assets/images/advanced-operations.jpg"
+      image: "src/assets/images/advanced.png"
     }
   ];
 
   return (
-    <section id="features" style={{ height: '150vh' }} className="flex flex-col items-center justify-center px-8 py-16 bg-gradient-to-br from-[#0F0F1A] via-[#1A1A2E] to-[#0F0F1A] overflow-hidden">
+    <section id="features" style={{ height: '150vh' }} className="flex flex-col items-center justify-start px-8 py-8 bg-gradient-to-br from-[#0F0F1A] via-[#1A1A2E] to-[#0F0F1A] overflow-hidden">
       <div className="w-full max-w-7xl mx-auto">
         {/* Features Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 mt-8">
           <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold mb-8 font-orbitron">
             <span className="bg-gradient-to-r from-[#8A2BE2] via-[#BF40BF] to-[#FF00FF] bg-clip-text text-transparent animate-gradient uppercase tracking-wider">
               FEATURES
@@ -64,7 +64,7 @@ const FeaturesSection: React.FC = () => {
           {features.map((feature, index) => (
             <div
               key={feature.id}
-              className={`relative group cursor-pointer overflow-hidden transition-all duration-700 ease-in-out ${
+              className={`relative group cursor-pointer overflow-hidden transition-all duration-300 ease-out ${
                 hoveredCard === feature.id ? 'transform scale-105' : ''
               }`}
               onMouseEnter={() => setHoveredCard(feature.id)}
@@ -77,7 +77,7 @@ const FeaturesSection: React.FC = () => {
               <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-2xl">
                 {/* Background Image */}
                 <div 
-                  className="absolute inset-0 transition-all duration-700"
+                  className="absolute inset-0 transition-all duration-300"
                   style={{
                     backgroundImage: `url('${feature.image}')`,
                     backgroundSize: 'cover',
@@ -85,16 +85,8 @@ const FeaturesSection: React.FC = () => {
                     backgroundRepeat: 'no-repeat'
                   }}
                 >
-                  {/* Fallback Gradient */}
-                  <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-60`}></div>
-                  
                   {/* Dark Overlay for Text Readability */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                </div>
-
-                {/* Fallback Icon */}
-                <div className="absolute inset-0 flex items-center justify-center opacity-10">
-                  <feature.icon size={150} className="text-white" />
                 </div>
 
                 {/* Card Content */}
@@ -118,10 +110,10 @@ const FeaturesSection: React.FC = () => {
 
                     {/* Description - Only show on hover */}
                     <div 
-                      className={`transition-all duration-700 overflow-hidden ${
+                      className={`transition-all duration-300 ease-out overflow-hidden ${
                         hoveredCard === feature.id 
                           ? 'max-h-32 opacity-100 transform translate-y-0' 
-                          : 'max-h-0 opacity-0 transform translate-y-4'
+                          : 'max-h-0 opacity-0 transform translate-y-2'
                       }`}
                     >
                       <p className="text-gray-200 text-lg leading-relaxed font-playfair">
@@ -131,7 +123,7 @@ const FeaturesSection: React.FC = () => {
 
                     {/* Elegant Accent Line */}
                     <div 
-                      className={`transition-all duration-700 ${
+                      className={`transition-all duration-300 ease-out ${
                         hoveredCard === feature.id ? 'w-24 opacity-100' : 'w-12 opacity-60'
                       } h-1 rounded-full`}
                       style={{ backgroundColor: feature.accentColor }}
@@ -141,7 +133,7 @@ const FeaturesSection: React.FC = () => {
 
                 {/* Elegant Border Glow */}
                 <div 
-                  className={`absolute inset-0 rounded-2xl pointer-events-none transition-all duration-700 ${
+                  className={`absolute inset-0 rounded-2xl pointer-events-none transition-all duration-300 ease-out ${
                     hoveredCard === feature.id ? 'opacity-100' : 'opacity-0'
                   }`}
                   style={{ 
@@ -151,7 +143,7 @@ const FeaturesSection: React.FC = () => {
 
                 {/* Subtle Inner Glow */}
                 <div 
-                  className={`absolute inset-0 rounded-2xl pointer-events-none transition-all duration-700 ${
+                  className={`absolute inset-0 rounded-2xl pointer-events-none transition-all duration-300 ease-out ${
                     hoveredCard === feature.id ? 'opacity-30' : 'opacity-0'
                   }`}
                   style={{ 
