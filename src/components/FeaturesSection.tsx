@@ -189,14 +189,8 @@ const FeaturesSection: React.FC = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-12">
-          <div className="inline-flex items-center space-x-4 text-[#8A2BE2] mb-6">
-            <div className="w-16 h-px bg-gradient-to-r from-transparent to-[#8A2BE2]"></div>
-            <div className="w-3 h-3 bg-[#8A2BE2] rounded-full animate-pulse"></div>
-            <div className="w-16 h-px bg-gradient-to-l from-transparent to-[#8A2BE2]"></div>
-          </div>
-          
-          <p className="text-gray-400 text-lg font-orbitron tracking-wider">
-            Powered by Rise Chain Technology
+          <p className="text-transparent text-lg font-orbitron tracking-wider">
+            &nbsp;
           </p>
         </div>
       </div>
