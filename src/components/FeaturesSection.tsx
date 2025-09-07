@@ -81,7 +81,7 @@ const FeaturesSection: React.FC = () => {
       
       <div className="w-full max-w-7xl mx-auto relative z-10">
         {/* Features Header */}
-        <div className="text-center mb-8 mt-8">
+        <div className="text-center mb-32 mt-2">
           <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold mb-8 font-orbitron">
             <span className="bg-gradient-to-r from-[#8A2BE2] via-[#BF40BF] to-[#FF00FF] bg-clip-text text-transparent animate-gradient uppercase tracking-wider">
               FEATURES
@@ -100,8 +100,12 @@ const FeaturesSection: React.FC = () => {
                           onMouseEnter={() => setHoveredCard(feature.id)}
                           onMouseLeave={() => setHoveredCard(null)}
                           style={{
-                            height: hoveredCard === feature.id ? '500px' : '350px',
+                            height: hoveredCard === feature.id ? '450px' : '350px',
                             transform: hoveredCard === feature.id ? 'scale(1.02)' : 'scale(1)',
+                            // Üst sıradaki kartlar (1,2) yukarıya genişlesin
+                            transformOrigin: feature.id <= 2 ? 'bottom' : 'top',
+                            // Üst sıradaki kartlar hover'da yukarıya kaydırılsın
+                            marginTop: (hoveredCard === feature.id && feature.id <= 2) ? '-100px' : '0px',
                           }}
             >
               {/* Main Card Container */}
