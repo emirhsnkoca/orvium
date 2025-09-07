@@ -94,18 +94,18 @@ const FeaturesSection: React.FC = () => {
           {features.map((feature, index) => (
                         <div
                           key={feature.id}
-                          className={`relative group cursor-pointer overflow-hidden transition-all duration-200 ease-out will-change-transform ${
-                            hoveredCard === feature.id ? 'transform scale-102' : ''
-                          }`}
+                          className="relative group cursor-pointer overflow-hidden transition-all duration-200 ease-out will-change-transform"
                           onMouseEnter={() => setHoveredCard(feature.id)}
                           onMouseLeave={() => setHoveredCard(null)}
                           style={{
                             height: hoveredCard === feature.id ? '450px' : '350px',
-                            transform: hoveredCard === feature.id ? 'scale(1.02)' : 'scale(1)',
+                            // Yatay genişleme kaldırıldı - sadece dikey uzama
                             // Üst sıradaki kartlar (1,2) yukarıya genişlesin
                             transformOrigin: feature.id <= 2 ? 'bottom' : 'top',
                             // Üst sıradaki kartlar hover'da yukarıya kaydırılsın
                             marginTop: (hoveredCard === feature.id && feature.id <= 2) ? '-100px' : '0px',
+                            // Alt sıradaki kartlar hover'da aşağıya kaydırılsın
+                            marginBottom: (hoveredCard === feature.id && feature.id > 2) ? '-100px' : '0px',
                           }}
             >
               {/* Main Card Container */}
