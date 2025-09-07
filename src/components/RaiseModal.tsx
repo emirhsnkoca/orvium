@@ -17,7 +17,7 @@ const RaiseModal: React.FC<RaiseModalProps> = ({ isOpen, onClose }) => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
-      text: "Hello! You can ask me anything about Rise Chain. How can I help you today?",
+      text: "Hello! I'm the Rise Chain AI assistant. I can answer your questions about the Rise Chain blockchain platform, SDKs, DeFi tools, security features, and the entire ecosystem. How can I help you today?",
       sender: 'bot',
       timestamp: new Date()
     }
@@ -41,6 +41,92 @@ const RaiseModal: React.FC<RaiseModalProps> = ({ isOpen, onClose }) => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const searchRiseChainInfo = async (query: string): Promise<string> => {
+    try {
+      // Rise Chain web sitesinden bilgi çek
+      const response = await fetch(`https://blog.risechain.com/tag/research/`);
+      if (response.ok) {
+        const html = await response.text();
+        // Basit bir HTML parse (gerçek projede daha gelişmiş parser kullan)
+        const textContent = html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+        return textContent.substring(0, 2000); // İlk 2000 karakter
+      }
+    } catch (error) {
+      console.log('Web scraping failed, using local knowledge');
+    }
+    return '';
+  };
+
+  const callGeminiAPI = async (prompt: string): Promise<string> => {
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+    
+    if (!apiKey) {
+      return "API key bulunamadı. Lütfen VITE_GEMINI_API_KEY environment variable'ını ayarlayın.";
+    }
+
+    // Rise Chain web sitesinden güncel bilgi çek
+    const webInfo = await searchRiseChainInfo(prompt);
+
+    const systemPrompt = `You are an expert AI assistant specialized in Rise Chain. You only answer questions about Rise Chain, blockchain technology, DeFi, SDK, smart contracts and related topics.
+
+What you need to know about Rise Chain:
+- Rise Chain is a modern blockchain platform focusing on Layer 2 solutions
+- Offers swap, transfer, security checks and faucet services through the Orvium platform
+- Security-focused ecosystem with based sequencing technology
+- Developer-friendly SDKs available
+- Provides smart tools for DeFi operations
+- Has testnet faucet hub
+- Multi-signature wallet support
+- Phishing detection system
+- Advanced bulk transfer features
+
+Advanced Rise Chain Technologies:
+- Based Sequencing: Moves rollup sequencing directly onto Ethereum blocks for main-chain security
+- Parallel EVM (PEVM): High-performance parallel execution virtual machine
+- Hybrid Rollups: Combines optimistic performance with ZK security
+- Preconfirmation Technology: Fast and predictable transaction confirmations
+- Real-time blockchain capabilities with instant randomness
+- Advanced state management systems
+- Support for Ethereum's Glamsterdam upgrade (2026)
+- Bonded gateway architecture for enhanced security
+
+IMPORTANT: Always respond in the SAME LANGUAGE that the user writes their question in. If they write in Turkish, respond in Turkish. If they write in English, respond in English. If they write in another language, respond in that language.
+
+If the question is not related to Rise Chain, politely mention that you can only help with Rise Chain topics.`;
+
+    try {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          contents: [{
+            parts: [{
+              text: `${systemPrompt}\n\n${webInfo ? `Recent Rise Chain Information:\n${webInfo}\n\n` : ''}Kullanıcı sorusu: ${prompt}`
+            }]
+          }],
+          generationConfig: {
+            temperature: 0.7,
+            topK: 40,
+            topP: 0.95,
+            maxOutputTokens: 1024,
+          }
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error(`API error: ${response.status}`);
+      }
+
+      const data = await response.json();
+      return data.candidates?.[0]?.content?.parts?.[0]?.text || "Üzgünüm, bir hata oluştu.";
+    } catch (error) {
+      console.error('Gemini API Error:', error);
+      return "Üzgünüm, şu anda bir teknik sorun yaşıyorum. Lütfen daha sonra tekrar deneyin.";
+    }
+  };
+
   const handleSendMessage = async () => {
     if (!inputText.trim()) return;
 
@@ -52,29 +138,32 @@ const RaiseModal: React.FC<RaiseModalProps> = ({ isOpen, onClose }) => {
     };
 
     setMessages(prev => [...prev, userMessage]);
+    const currentInput = inputText;
     setInputText('');
     setIsTyping(true);
 
-    // Simulate AI response
-    setTimeout(() => {
-      const responses = [
-        "Rise Chain offers powerful tools for developers and users with innovative blockchain technology.",
-        "On our Orvium platform, you can find swap, transfer, security checks, and faucet services all in one place.",
-        "Security is our priority in the Rise Chain ecosystem. All your transactions are protected with the highest security standards.",
-        "Meet our smart tools developed to simplify your DeFi operations.",
-        "As part of the Rise Chain community, you can benefit from constantly evolving and renewing features."
-      ];
-
+    try {
+      const aiResponse = await callGeminiAPI(currentInput);
+      
       const botMessage: Message = {
         id: Date.now() + 1,
-        text: responses[Math.floor(Math.random() * responses.length)],
+        text: aiResponse,
         sender: 'bot',
         timestamp: new Date()
       };
 
       setMessages(prev => [...prev, botMessage]);
+    } catch (error) {
+      const errorMessage: Message = {
+        id: Date.now() + 1,
+        text: "Üzgünüm, bir hata oluştu. Lütfen tekrar deneyin.",
+        sender: 'bot',
+        timestamp: new Date()
+      };
+      setMessages(prev => [...prev, errorMessage]);
+    } finally {
       setIsTyping(false);
-    }, 1500);
+    }
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
@@ -170,7 +259,6 @@ const RaiseModal: React.FC<RaiseModalProps> = ({ isOpen, onClose }) => {
               value={inputText}
               onChange={(e) => setInputText(e.target.value)}
               onKeyPress={handleKeyPress}
-              placeholder="Rise Chain hakkında bir şeyler sorun..."
               placeholder="Ask me anything about Rise Chain..."
               className="flex-1 bg-[#8A2BE2]/10 border border-[#8A2BE2]/30 rounded-xl px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-[#BF40BF] focus:ring-2 focus:ring-[#8A2BE2]/20 transition-all duration-300 font-poppins"
             />
