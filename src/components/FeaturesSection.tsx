@@ -24,7 +24,7 @@ const FeaturesSection: React.FC = () => {
       link: "https://or-vium.vercel.app",
       gradient: "from-[#8A2BE2] to-[#BF40BF]",
       accentColor: "#8A2BE2",
-      image: "src/assets/images/swap.png"
+      image: "/images/swap.png"
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const FeaturesSection: React.FC = () => {
       link: "https://or-vium.vercel.app",
       gradient: "from-[#BF40BF] to-[#FF00FF]",
       accentColor: "#BF40BF",
-      image: "src/assets/images/phising.png"
+      image: "/images/phising.png"
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const FeaturesSection: React.FC = () => {
       link: "https://pov-faucet.vercel.app",
       gradient: "from-[#FF00FF] to-[#EE82EE]",
       accentColor: "#FF00FF",
-      image: "src/assets/images/faucet.png"
+      image: "/images/faucet.png"
     },
     {
       id: 4,
@@ -57,7 +57,7 @@ const FeaturesSection: React.FC = () => {
       link: "https://or-vium.vercel.app",
       gradient: "from-[#EE82EE] to-[#8A2BE2]",
       accentColor: "#EE82EE",
-      image: "src/assets/images/advanced.png"
+      image: "/images/advanced.png"
     }
   ];
 
