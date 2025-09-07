@@ -21,18 +21,18 @@ const FeaturesSection: React.FC = () => {
       displayTitle: "Smart <span class='gold-luxury'>Swap</span> & <span class='gold-luxury'>Transfer</span>",
       description: "Instantly and securely swap or send your assets with intelligent automation and real-time market analysis.",
       icon: ArrowRightLeft,
-      link: "https://swap-transfer.vercel.app",
+      link: "https://or-vium.vercel.app",
       gradient: "from-[#8A2BE2] to-[#BF40BF]",
       accentColor: "#8A2BE2",
       image: "src/assets/images/swap.png"
     },
     {
       id: 2,
-      title: "Security Guardian",
-      displayTitle: "<span class='gold-luxury'>Security</span> Guardian",
+      title: "Phising Detector",
+      displayTitle: "Phising <span class='gold-luxury'>Detector</span>",
       description: "Advanced phishing detection system that instantly identifies suspicious contract addresses and protects your assets.",
       icon: Shield,
-      link: "https://phishing-detector.vercel.app",
+      link: "https://or-vium.vercel.app",
       gradient: "from-[#BF40BF] to-[#FF00FF]",
       accentColor: "#BF40BF",
       image: "src/assets/images/phising.png"
@@ -54,7 +54,7 @@ const FeaturesSection: React.FC = () => {
       displayTitle: "<span class='gold-luxury'>Advanced Operations</span>",
       description: "Bulk transfers, multi-signature wallets, and comprehensive account management solutions for power users.",
       icon: Users,
-      link: "https://multisender-creator.vercel.app",
+      link: "https://or-vium.vercel.app",
       gradient: "from-[#EE82EE] to-[#8A2BE2]",
       accentColor: "#EE82EE",
       image: "src/assets/images/advanced.png"
@@ -80,8 +80,8 @@ const FeaturesSection: React.FC = () => {
       </div>
       
       <div className="w-full max-w-7xl mx-auto relative z-10">
-        {/* Features Header */}
-        <div className="text-center mb-32 mt-2">
+    {/* Features Header */}
+    <div className="text-center mb-24 mt-2">
           <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold mb-8 font-orbitron">
             <span className="bg-gradient-to-r from-[#8A2BE2] via-[#BF40BF] to-[#FF00FF] bg-clip-text text-transparent animate-gradient uppercase tracking-wider">
               FEATURES
@@ -97,6 +97,7 @@ const FeaturesSection: React.FC = () => {
                           className="relative group cursor-pointer overflow-hidden transition-all duration-200 ease-out will-change-transform"
                           onMouseEnter={() => setHoveredCard(feature.id)}
                           onMouseLeave={() => setHoveredCard(null)}
+                          onClick={() => window.open(feature.link, '_blank')}
                           style={{
                             height: hoveredCard === feature.id ? '450px' : '350px',
                             // Yatay genişleme kaldırıldı - sadece dikey uzama
